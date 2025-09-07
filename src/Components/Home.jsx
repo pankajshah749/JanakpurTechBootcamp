@@ -35,7 +35,7 @@ function Home() {
             {/* CTA Buttons */}
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <a
-                href="https://forms.gle/HjHiB5JkedrtQ4SJ8"
+                href="https://docs.google.com/forms/d/1Rv1qb9LUwVoFwsNQXfkmjm8Gr8bDgo9VtnbrFUicZuA/edit"
                 className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
               >
                 Apply Now
