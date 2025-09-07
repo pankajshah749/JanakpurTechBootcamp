@@ -9,15 +9,16 @@ const faqs = [
   },
   {
     id: 2,
-    question: "Where exactly are you located?",
-    answer:
-      "This is a bootcamp led by Neelgai. Neelgai has a office in Janakpur. It will be held on 2nd floor (previously N.K Shopping Mall) at Janak Chowk, Janakpur -03. There is a banner there currently.",
+    question: "Where exactly are you located?", 
+    answer: 
+      "This Bootcamp is led by Janakpur Tech Bootcamp Team. The bootcamp will take place at Janak Chowk, Janakpurdham — on the 2nd floor of the former N.K Shopping Mall building. You’ll also find our banner displayed at the location for easy identification.",
+
   },
   {
     id: 3,
     question: "How much does it cost to attend?",
     answer:
-      "Applying is Free. However if your application is accepted, there is an entry fee of NRs 8000 to join the bootcamp. We do offer few scholarships if NRs 8000 is a financial burden for you. Reach out at janakpurtechbootcamp@gmail.com. This bootcamp is free for women.",
+      "Applying is Free. However if your application is accepted, there is an entry fee of NRs 8000 to join the bootcamp. We do offer few scholarships if NRs 8000 is a financial burden for you. Reach out at janakpurtechbootcamp@gmail.com.",
   },
   {
     id: 4,
