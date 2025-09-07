@@ -1,28 +1,28 @@
 import React from "react";
-
+// import pankajImage from "src/assets/images/pankajImage.jpg"; // Ensure the path is correct
 const instructors = [
     {
         name: "Nawaj sarif",
         role: "Lead Instructor",
-        image: "src/assets/images/nawaj.png", 
+        image: "/images/nawaj.png", 
         bio: "Nawaj Sarif is an Artificial Intelligence enthusiast and instructor with a strong background in Machine Learning, Deep Learning, and Data Science. With hands-on experience in developing AI-powered applications and conducting research in cutting-edge technologies, he is passionate about teaching and mentoring aspiring learners. At Janakpur AI Bootcamp 2025, Nawaj guides participants through real-world AI projects, helping them build the skills needed to succeed in the fast-evolving tech industry."
     },
     {
     name: "Suruchi Shah",
     role: "Marketing Coordinator",
-    image: "src/assets/images/suruchi.jpg", // Replace with real image
+    image: "/images/suruchi.jpg", // Replace with real image
     bio: "As the Marketing Coordinator for Neelgai, I manage comprehensive marketing strategies to promote our tech services and bootcamps. I work closely with prospective bootcamp applicants, helping them navigate the application process and sharing the bootcamp’s value. My goal is to ensure that our marketing efforts effectively communicate the benefits of joining our programs and to support students in their journey to learn and grow in the tech industry."
   },
   {
     name: "Pankaj Sah",
     role: "Bootcamp Coordinator",
-    image: "src/assets/images/pankajImage.jpg", 
+    image: "/images/pankajImage.jpg", 
     bio: "Pankaj sah, the Bootcamp Coordinator for Neelgai, is responsible for organizing and managing the Janakpur AI Bootcamp 2025. With a background in project management and a passion for technology education, Pankaj ensures that the bootcamp runs smoothly and that participants have a valuable learning experience. He coordinates logistics, liaises with instructors, and supports students throughout the program."
   },
   {
     name: "Sweta Shresta ",
     role: "React Instructor",
-    image: "src/assets/images/swetashresta.jpg", 
+    image: "/images/swetashresta.jpg", 
     bio: "Sweta Shresta is a skilled React instructor with a deep understanding of front-end development and user interface design. With extensive experience in building dynamic web applications using React, she brings practical knowledge and real-world insights to her teaching. At Janakpur AI Bootcamp 2025, Sweta focuses on helping students master React fundamentals, component-based architecture, and best practices for creating responsive and engaging web applications."
   },
   

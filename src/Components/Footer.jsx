@@ -31,7 +31,7 @@ function Footer() {
 
 
 
-            <li><a href="#apply" className="hover:text-blue-400">Apply</a></li>
+            <li><a href="https://docs.google.com/forms/d/1Rv1qb9LUwVoFwsNQXfkmjm8Gr8bDgo9VtnbrFUicZuA/edit" className="hover:text-blue-400">Apply</a></li>
             <li><a href="#faq" className="hover:text-blue-400">FAQ</a></li>
           </ul>
         </div>
@@ -41,7 +41,7 @@ function Footer() {
           <h3 className="text-lg font-semibold text-white mb-4">Contact Us</h3>
           <p className="text-gray-400 text-sm">📍  Janakchowk, Janakpur</p>
           <p className="text-gray-400 text-sm">📧 janakpurtechbootcamp@gmail.com</p>
-          <p className="text-gray-400 text-sm">📞 +977-9800000000</p>
+          <p className="text-gray-400 text-sm">📞 +977-9804885027</p>
 
           {/* Social Icons */}
           <div className="flex space-x-4 mt-4">
