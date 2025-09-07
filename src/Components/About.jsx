@@ -8,7 +8,7 @@ function About() {
         {/* Left: Image / Illustration */}
         <div className="flex justify-center">
           <img
-            src="src/assets/images/AboutPageImage.jpg" 
+            src="/images/AboutPageImage.jpg" 
             alt="AI Technology Illustration"
             className="w-[500px] h-[500px] rounded-2xl shadow-xl object-cover"
           />

@@ -81,7 +81,7 @@ function Home() {
           {/* Right: Image / Illustration */}
           <div className="flex justify-center md:justify-end">
             <img
-              src="src/assets/images/homeImage.webp"
+              src="/images/homeImage.webp"
               alt="AI Bootcamp Illustration"
               className="w-full max-w-md sm:max-w-lg md:max-w-xl h-auto rounded-xl shadow-lg"
             />
