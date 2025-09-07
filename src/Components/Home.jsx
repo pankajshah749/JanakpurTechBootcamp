@@ -24,7 +24,7 @@ function Home() {
               A{" "}
               <span className="font-semibold">3-month immersive program </span>
               focused on{" "}
-              <span className="text-blue-600 font-bold">
+              <span className="text-blue-900 font-bold">
                 Artificial Intelligence
               </span>
               . Learn Machine Learning, Deep Learning, and AI tools from
