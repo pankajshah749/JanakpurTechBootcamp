@@ -31,7 +31,7 @@ function Footer() {
 
 
 
-            <li><a href="https://docs.google.com/forms/d/1Rv1qb9LUwVoFwsNQXfkmjm8Gr8bDgo9VtnbrFUicZuA/edit" className="hover:text-blue-400">Apply</a></li>
+            <li><a href="https://forms.gle/1LarQabBXYhyBXtCA" className="hover:text-blue-400">Apply</a></li>
             <li><a href="#faq" className="hover:text-blue-400">FAQ</a></li>
           </ul>
         </div>

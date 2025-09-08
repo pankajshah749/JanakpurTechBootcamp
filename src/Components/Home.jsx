@@ -35,7 +35,7 @@ function Home() {
             {/* CTA Buttons */}
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <a
-                href="https://docs.google.com/forms/d/1Rv1qb9LUwVoFwsNQXfkmjm8Gr8bDgo9VtnbrFUicZuA/edit"
+                href="https://forms.gle/1LarQabBXYhyBXtCA"
                 className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
               >
                 Apply Now
@@ -81,7 +81,7 @@ function Home() {
           {/* Right: Image / Illustration */}
           <div className="flex justify-center md:justify-end">
             <img
-              src="/images/homeImage.webp"
+              src="/images/homepageimage.jpg"
               alt="AI Bootcamp Illustration"
               className="w-full max-w-md sm:max-w-lg md:max-w-xl h-auto rounded-xl shadow-lg"
             />
