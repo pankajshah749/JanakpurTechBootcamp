@@ -39,14 +39,20 @@ function Instructor() {
           {instructors.map((instructor, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl shadow-md p-6 flex flex-col sm:flex-row items-center sm:items-start gap-6 hover:shadow-lg transition"
+              className="bg-white rounded-2xl shadow-xl p-6  sm:flex-row items-center sm:items-start gap-6 hover:shadow-lg transition"
             >
+
               {/* Profile Image */}
+              <div className = "flex items-center gap-x-5">
+              
+           
+      
               <img
                 src={instructor.image}
                 alt={instructor.name}
                 className="w-20 h-20 sm:w-24 sm:h-24 rounded-full object-cover flex-shrink-0"
               />
+             
 
               {/* Text Info */}
               <div className="text-center sm:text-left">
@@ -56,11 +62,19 @@ function Instructor() {
                 <p className="text-gray-600 mb-2 text-sm sm:text-base">
                   {instructor.role}
                 </p>
-                <p className="text-gray-700 text-sm sm:text-base">
+                </div>
+               
+               
+              </div>
+              <div className = " mt-4 ">
+ <p className="text-gray-700 text-sm sm:text-base p-2">
                   {instructor.bio}
                 </p>
               </div>
+              
+               
             </div>
+            
           ))}
         </div>
       </div>

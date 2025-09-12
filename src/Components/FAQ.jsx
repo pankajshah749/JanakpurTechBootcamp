@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     id: 7,
-    question: "why this Bootcamp in Janakpur?",
+    question: "Why this Bootcamp in Janakpur?",
     answer:"Janakpur has a potential for a huge tech talent hub and thats why are setting one of our office there. With remote work, we envision a future where tech folks can work for companies all around the world (remotely from Janakpur).There are several low-income marginalized communities (including but not limited to Musahars, Dalits) nearby Janakpur and we think the access to high pay tech jobs will make a positive impact."
   },
 ];

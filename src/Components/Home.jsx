@@ -3,6 +3,10 @@ import Instructor from "./Instructor";
 import FAQ from "./FAQ";
 import LearnAI from "./LearnAI";
 import Courses from "./Courses";
+import { Link } from "react-router-dom";
+
+
+
 
 function Home() {
   const [showDetails, setShowDetails] = useState(false);
@@ -18,7 +22,7 @@ function Home() {
           {/* Left: Text Content */}
           <div className="text-center md:text-left">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-100 leading-tight">
-              Janakpur AI Bootcamp 2025
+              Janakpur Tech Bootcamp : AI Bootcamp 2025
             </h1>
             <p className="mt-6 text-base sm:text-lg text-gray-200">
               A{" "}
@@ -33,9 +37,10 @@ function Home() {
             </p>
 
             {/* CTA Buttons */}
+            <div className="block ">
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <a
-                href="https://forms.gle/1LarQabBXYhyBXtCA"
+                href="https://forms.gle/Z5wDnncqGxCFecwv5"
                 className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
               >
                 Apply Now
@@ -46,6 +51,14 @@ function Home() {
               >
                 {showDetails ? "Show Less" : "Learn More"}
               </button>
+            </div>
+            <div className="w-full">
+              <Link to = "/SponsorUS">
+              <button className="mt-4 px-24 py-3 border border-gray-300 bg-blue-800  rounded-lg hover:text-black text-gray-300 hover:bg-gray-100 transition">
+                Sponsor Us 
+              </button>
+              </Link>
+            </div>
             </div>
 
             {/* Expanded Details */}
@@ -83,7 +96,7 @@ function Home() {
             <img
               src="/images/homepageimage.jpg"
               alt="AI Bootcamp Illustration"
-              className="w-full max-w-md sm:max-w-lg md:max-w-xl h-auto rounded-xl shadow-lg"
+              className="w-full max-w-md sm:max-w-lg md:max-w-xl h-auto rounded-2xl shadow-2xl"
             />
           </div>
         </div>

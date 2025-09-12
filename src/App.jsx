@@ -9,6 +9,7 @@ import Layout from './Components/Layout'
 import Courses from './Components/Courses'
 import About from './Components/About'
 import LearnAI from './Components/LearnAI'
+import SponsorUS from './Components/SponsorUS'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path ="/faq" element = {<FAQ/>}/>
         <Route path ="/courses" element = {<Courses/>}/>
         <Route path ="/about" element = {<About/>}/>
+        <Route path ="/SponsorUS" element = {<SponsorUS/>}/>
 
 
 
