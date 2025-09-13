@@ -22,7 +22,7 @@ function Home() {
           {/* Left: Text Content */}
           <div className="text-center md:text-left">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-100 leading-tight">
-              Janakpur Tech Bootcamp : AI Bootcamp 2025
+              Janakpur Tech Bootcamp : AI Edition 2025
             </h1>
             <p className="mt-6 text-base sm:text-lg text-gray-200">
               A{" "}
