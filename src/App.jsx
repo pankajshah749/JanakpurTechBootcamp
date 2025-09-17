@@ -10,6 +10,8 @@ import Courses from './Components/Courses'
 import About from './Components/About'
 import LearnAI from './Components/LearnAI'
 import SponsorUS from './Components/SponsorUS'
+import Feedback from './Components/Feedback'
+import Hackathon from './Components/Hackathon'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
         <Route path ="/courses" element = {<Courses/>}/>
         <Route path ="/about" element = {<About/>}/>
         <Route path ="/SponsorUS" element = {<SponsorUS/>}/>
+        <Route path ="/feedback" element = {<Feedback/>}/>
+        <Route path ="/hackathon" element = {<Hackathon/>}/>
 
 
 
