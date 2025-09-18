@@ -1,6 +1,18 @@
 import React from "react";
 
 const instructors = [
+  // {
+  //   name: "Shishir Yadav",
+  //   role: "Bootcamp Coordinator",
+  //   image: "/images/shishir.jpg",
+  //   bio:  "Shishir Yadav is the Bootcamp Coordinator for Janakpur Tech Bootcamp 2025. With a strong passion for technology and community building, he plays a key role in planning, organizing, and managing the event. His dedication ensures smooth coordination between trainers, participants, and partners, creating an environment where learning and collaboration thrive.  ",
+  // },
+  // {
+  //   name:"Asmita Mandal",
+  //   role: "Sponsorship Coordinator",
+  //   image: "/images/asmita.jpg",
+  //   bio: "Asmita Mandal is the Sponsorship Coordinator for Janakpur Tech Bootcamp 2025. With a keen eye for building partnerships and securing sponsorships, she plays a crucial role in supporting the bootcamp's mission to provide quality tech education. Asmita works closely with potential sponsors to create mutually beneficial relationships, ensuring that the bootcamp has the resources needed to deliver an exceptional learning experience for all participants.",
+  // },
   {
     name: "Nawaj Sarif",
     role: "Lead Instructor",
@@ -15,9 +27,9 @@ const instructors = [
   },
   {
     name: "Pankaj Sah",
-    role: "Bootcamp Coordinator",
+    role: "In-person Coordinator",
     image: "/images/pankajImage.jpg",
-    bio: "Pankaj Sah, the Bootcamp Coordinator for Neelgai, is responsible for organizing and managing the Janakpur AI Bootcamp 2025. With a background in project management and a passion for technology education, Pankaj ensures that the bootcamp runs smoothly and that participants have a valuable learning experience. He coordinates logistics, liaises with instructors, and supports students throughout the program.",
+    bio: "Pankaj Sah, the Coordinator for Janakpur Tech BootCamp, is responsible for organizing and managing the Janakpur AI Bootcamp 2025. With a background in project management and a passion for technology education, Pankaj ensures that the bootcamp runs smoothly and that participants have a valuable learning experience. He coordinates logistics, liaises with instructors, and supports students throughout the program.",
   },
   {
     name: "Sweta Shresta",
@@ -67,7 +79,7 @@ function Instructor() {
                
               </div>
               <div className = " mt-4 ">
- <p className="text-gray-700 text-sm sm:text-base p-2">
+                  <p className="text-gray-700 text-sm sm:text-base p-2">
                   {instructor.bio}
                 </p>
               </div>

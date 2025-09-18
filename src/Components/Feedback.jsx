@@ -10,7 +10,7 @@ const feedbacks = {
       image: "/images/anjali.png",
     },
     {
-      name: "Milian Sah",
+      name: "Milan Sah",
       role: "Web Development Student",
       feedback:
         "Instructors made React and modern web tooling easy to understand. My portfolio improved drastically.",
