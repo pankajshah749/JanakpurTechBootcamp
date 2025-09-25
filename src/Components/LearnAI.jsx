@@ -2,7 +2,7 @@ import React from "react";
 
 const LearnAI = () => {
   return (
-    <section id="learn" className="bg-gray-50 py-20 ">
+    <section id="learn" className="bg-gray-50 py-16 ">
       <div className="max-w-7xl mx-auto px-6 text-center">
         {/* Section Title */}
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">

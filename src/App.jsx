@@ -12,6 +12,7 @@ import LearnAI from './Components/LearnAI'
 import SponsorUS from './Components/SponsorUS'
 import Feedback from './Components/Feedback'
 import Hackathon from './Components/Hackathon'
+import MentorVolunteer from './Components/MentorVolunteer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path ="/SponsorUS" element = {<SponsorUS/>}/>
         <Route path ="/feedback" element = {<Feedback/>}/>
         <Route path ="/hackathon" element = {<Hackathon/>}/>
+        <Route path ="/MentorVolunteer" element = {<MentorVolunteer/>}/>
 
 
 

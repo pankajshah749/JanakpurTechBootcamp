@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import Feedback from "./Feedback";
 import Hackathon from "./Hackathon";
 import React, { useState, useEffect } from "react";
+import MentorVolunteer from "./MentorVolunteer";
 
 function FlippingImageCard() {
   const images = [
@@ -99,37 +100,31 @@ function Home() {
                 >
                   Apply Now
                 </a>
-                <button
-                  onClick={() => setShowDetails(!showDetails)}
-                  className="px-6 py-3 border border-gray-300 rounded-lg hover:text-black text-gray-300 hover:bg-gray-100 transition"
-                >
-                  {showDetails ? "Show Less" : "Learn More"}
-                </button>
-              </div>
-              <div className="w-full">
+                  <div className="">
                 <Link to="/SponsorUS">
-                  <button className="mt-4 px-24 py-3 border border-gray-300 bg-blue-800 rounded-lg hover:text-black text-gray-300 hover:bg-gray-100 transition">
+                  <button className=" px-24 py-3 border border-gray-300 bg-blue-800 rounded-lg hover:text-black text-gray-300 hover:bg-gray-100 transition">
                     Sponsor Us
                   </button>
                 </Link>
               </div>
+              </div>
+             
             </div>
 
             {/* Expanded Details */}
-            {showDetails && (
-              <div className="mt-6 bg-white shadow-md p-6 rounded-lg border border-gray-200 text-left">
-                <h2 className="text-lg sm:text-xl font-bold text-gray-900 mb-3">
+            <div className="bg-white p-6 rounded-lg shadow-lg mt-8 pt-3  text-left pl-4">
+            <h2 className="text-lg sm:text-xl font-bold text-gray-900 mb-3">
                   Bootcamp Highlights
                 </h2>
-                <ul className="list-disc pl-5 text-gray-700 space-y-2">
-                  <li>📅 <strong>Duration:</strong> 3 months</li>
+                <ul className="list-none pl-5 text-gray-700 space-y-2">
+                  <li>📅 <strong>Duration:</strong> 3 months <span className="font-semibold">(29 oct - 29 jan)</span></li>
                   <li>📍 <strong>Location:</strong> Janakchowk, Janakpur</li>
                   <li>💡 <strong>Focus:</strong> Generative AI, Deep Learning, AI Tools</li>
                   <li>🧑‍🏫 <strong>Mentors:</strong> Industry professionals from top tech companies</li>
                   <li>🚀 <strong>Outcome:</strong> Hands-on projects + career guidance</li>
                 </ul>
-              </div>
-            )}
+             </div>   
+           
           </div>
 
           {/* Right: Flipping Image Card */}
@@ -141,10 +136,12 @@ function Home() {
 
       {/* Other Sections */}
       <section>
+        
         <LearnAI />
         <Courses />
         <Instructor />
         <Feedback />
+         <MentorVolunteer />
         <Hackathon />
         <FAQ />
       </section>
