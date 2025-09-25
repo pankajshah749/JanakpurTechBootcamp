@@ -14,6 +14,10 @@ function FlippingImageCard() {
     "/images/first.jpg",
     "/images/second.jpg",
     "/images/third.jpg",
+    "/images/fourth.jpg",
+    "/images/fifth.jpg",
+    "/images/sixth.jpg",
+    "/images/seven.jpg",
   ];
 
   const [index, setIndex] = useState(0);
@@ -48,15 +52,6 @@ function FlippingImageCard() {
             className="w-full h-full object-cover rounded-xl shadow-xl"
           />
         </div>
-
-        {/* Back Side */}
-        {/* <div className="absolute w-full h-full backface-hidden rotate-y-180">
-          <img
-            src={images[nextIndex]}
-            alt={`Bootcamp ${nextIndex + 1}`}
-            className="w-full h-full object-cover rounded-xl shadow-xl"
-          />
-        </div> */}
       </div>
     </div>
   );
