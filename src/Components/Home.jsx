@@ -90,10 +90,10 @@ function Home() {
             <div className="block">
               <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                 <a
-                  href="https://forms.gle/dRNJb6fAemTWpJeB8"
+                  href=""
                   className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
                 >
-                 Apply Now
+                 Application Closed
                 </a>
                   <div className="">
                 <Link to="/SponsorUS">
