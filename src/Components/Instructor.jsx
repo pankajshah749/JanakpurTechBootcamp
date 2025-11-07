@@ -25,6 +25,18 @@ const instructors = [
     image: "/images/sweta.jpg",
     bio: "Sweta Shresta is a skilled React instructor with a deep understanding of front-end development and user interface design. With extensive experience in building dynamic web applications using React, she brings practical knowledge and real-world insights to her teaching. At Janakpur AI Bootcamp 2025, Sweta focuses on helping students master React fundamentals, component-based architecture, and best practices for creating responsive and engaging web applications.",
   },
+  {
+    name: "Prashanna Paudel",
+    role: "Machine Learning Instructor ",
+    image: "/images/prashanna.jpg",
+    bio: "Prashanna Paudel is an experienced Machine Learning instructor with a strong background in data science and AI technologies. With hands-on experience in developing machine learning models and algorithms, he is passionate about sharing his knowledge with aspiring learners. At Janakpur AI Bootcamp 2025, Prashanna focuses on teaching core machine learning concepts, practical implementation techniques, and real-world applications to help students build a solid foundation in the field.",   
+  },
+  {
+    name:"Shivam Kumar Gupta",
+    role: "Deep Learning Instructor",
+    image:"/images/shivam.png",
+    bio: "Shivam Kumar Gupta is a dedicated Deep Learning instructor with expertise in neural networks, computer vision, and natural language processing. With a strong academic background and practical experience in developing deep learning models, he is committed to helping students grasp complex concepts and apply them effectively. At Janakpur AI Bootcamp 2025, Shivam focuses on teaching advanced deep learning techniques, model optimization, and real-world applications to equip students with the skills needed to excel in the AI field.",
+  },
 ];
 
 function Instructor() {
