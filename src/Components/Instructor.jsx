@@ -1,18 +1,6 @@
 import React from "react";
 
 const instructors = [
-  // {
-  //   name: "Shishir Yadav",
-  //   role: "Bootcamp Coordinator",
-  //   image: "/images/shishir.jpg",
-  //   bio:  "Shishir Yadav is the Bootcamp Coordinator for Janakpur Tech Bootcamp 2025. With a strong passion for technology and community building, he plays a key role in planning, organizing, and managing the event. His dedication ensures smooth coordination between trainers, participants, and partners, creating an environment where learning and collaboration thrive.  ",
-  // },
-  // {
-  //   name:"Asmita Mandal",
-  //   role: "Sponsorship Coordinator",
-  //   image: "/images/asmita.jpg",
-  //   bio: "Asmita Mandal is the Sponsorship Coordinator for Janakpur Tech Bootcamp 2025. With a keen eye for building partnerships and securing sponsorships, she plays a crucial role in supporting the bootcamp's mission to provide quality tech education. Asmita works closely with potential sponsors to create mutually beneficial relationships, ensuring that the bootcamp has the resources needed to deliver an exceptional learning experience for all participants.",
-  // },
   {
     name: "Nawaj Sarif",
     role: "Lead Instructor",
@@ -34,7 +22,7 @@ const instructors = [
   {
     name: "Sweta Shresta",
     role: "React Instructor",
-    image: "/images/swetashresta.jpg",
+    image: "/images/sweta.jpg",
     bio: "Sweta Shresta is a skilled React instructor with a deep understanding of front-end development and user interface design. With extensive experience in building dynamic web applications using React, she brings practical knowledge and real-world insights to her teaching. At Janakpur AI Bootcamp 2025, Sweta focuses on helping students master React fundamentals, component-based architecture, and best practices for creating responsive and engaging web applications.",
   },
 ];
