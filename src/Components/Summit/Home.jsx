@@ -60,7 +60,7 @@ export const Home = () => {
         <div className="mt-10 flex flex-col sm:flex-row items-start sm:items-center gap-4">
           <div  className="inline-flex items-center justify-center rounded-full bg-blue-900 px-7 py-4 text-xl font-semibold text-white hover:border-white hover:border-2  hover:bg-white/10 transition-x-duration-300">
           <a
-            href="https://luma.com/bdxlj91n"
+            href="https://luma.com/kav3l6sb"
            
           >
             Register Now
