@@ -30,12 +30,18 @@ function Header() {
           >
             Courses
           </Link>
-          <Link
+           <Link
+            to="/aisummit"
+            className="hover:text-blue-700 hover:font-bold transition"
+          >
+            AI Summit
+          </Link>
+          {/* <Link
             to="/SponsorUS"
             className="hover:text-blue-700 hover:font-bold transition"
           >
             Sponsor US
-          </Link>
+          </Link> */}
         </nav>
 
         {/* Mobile Menu Button */}
@@ -72,13 +78,13 @@ function Header() {
             >
               Courses
             </Link>
-            <Link
+            {/* <Link
               to="/SponsorUS"
               className="hover:text-blue-700 hover:font-bold transition"
               onClick={() => setIsOpen(false)}
             >
               Sponsor US
-            </Link>
+            </Link> */}
 
           </nav>
         </div>
