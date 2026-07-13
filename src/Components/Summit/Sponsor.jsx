@@ -135,7 +135,7 @@ export default function Sponsor() {
 
         {/* Organizer */}
 
-        <div className="mt-28 bg-slate-900 rounded-3xl border border-slate-700 p-12 text-center">
+        <div className="mt-20 bg-slate-900 rounded-3xl border border-slate-700 p-12 text-center">
 
           <h2 className="text-3xl font-bold">
             Organized by Janakpur Tech Bootcamp
