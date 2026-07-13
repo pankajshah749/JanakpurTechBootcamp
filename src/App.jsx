@@ -14,6 +14,9 @@ import Feedback from './Components/Feedback'
 import Hackathon from './Components/Hackathon'
 import MentorVolunteer from './Components/MentorVolunteer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import AISummit from './Components/AISummit'
+import Sponsor from './Components/Summit/Sponsor'
+
 
 function App() {
 
@@ -32,6 +35,10 @@ function App() {
         <Route path ="/feedback" element = {<Feedback/>}/>
         <Route path ="/hackathon" element = {<Hackathon/>}/>
         <Route path ="/MentorVolunteer" element = {<MentorVolunteer/>}/>
+        <Route path ="/aisummit" element = {<AISummit/>}/>
+        <Route path ="/aisummit/sponsor" element ={<Sponsor/>}/>
+
+
 
 
 
