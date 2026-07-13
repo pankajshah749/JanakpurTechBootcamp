@@ -2,16 +2,16 @@ import React from "react";
 
 const speakers = [
   {
-    name: "Coming Soon",
-    role: "AI Researcher",
-    organization: "International Speaker",
+    name: "Deepak Sah",
+    role: "Co-founder",
+    organization: "Neelgai",
     image:
       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500",
   },
   {
-    name: "Coming Soon",
-    role: "AI Engineer",
-    organization: "Technology Company",
+    name: "Bibek Sah",
+    role: "Entrepreneur",
+    organization: "Nexalaris",
     image:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500",
   },
@@ -24,7 +24,7 @@ const speakers = [
   },
   {
     name: "Coming Soon",
-    role: "Entrepreneur",
+    role: "AI Engineer",
     organization: "Startup Founder",
     image:
       "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=500",
