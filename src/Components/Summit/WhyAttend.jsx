@@ -29,12 +29,7 @@ const features = [
     desc: "Meet students, professionals, startups, researchers, and technology communities from across Nepal.",
     color: "from-pink-500 to-rose-500",
   },
-  {
-    icon: Briefcase,
-    title: "Career Guidance",
-    desc: "Learn about AI careers, internships, entrepreneurship, and future opportunities in the global technology industry.",
-    color: "from-emerald-500 to-green-600",
-  },
+
   {
     icon: Rocket,
     title: "Live Demonstrations",
