@@ -31,7 +31,7 @@ const speakers = [
   {
     name: "Amardeep Soni",
     role: "Software Developer",
-    organization: "",
+    organization: "Izon Tech Solutions - USA",
     image:
       amardeepImage,
   },
