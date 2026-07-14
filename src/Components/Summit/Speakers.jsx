@@ -1,19 +1,22 @@
 import React from "react";
+import deepakImage from "/images/aisummit/deepak.png"
+import bibekImage from "/images/aisummit/bibek.jpeg"
+
 
 const speakers = [
   {
     name: "Deepak Sah",
     role: "Co-founder",
-    organization: "Neelgai",
-    image:
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500",
+    organization: "Neelgai - USA",
+    image: deepakImage,
+     
   },
   {
     name: "Bibek Sah",
     role: "CEO",
-    organization: "Nexalaris",
+    organization: "Nexalaris - Janakpur",
     image:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500",
+      bibekImage,
   },
   {
     name: "Coming Soon",
