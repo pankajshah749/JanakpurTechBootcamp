@@ -31,7 +31,7 @@ const features = [
   },
   {
     icon: Briefcase,
-    title: "Career Opportunities",
+    title: "Career Guidance",
     desc: "Learn about AI careers, internships, entrepreneurship, and future opportunities in the global technology industry.",
     color: "from-emerald-500 to-green-600",
   },
