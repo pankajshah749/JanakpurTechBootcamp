@@ -1,6 +1,9 @@
 import React from "react";
 import deepakImage from "/images/aisummit/deepak.png"
 import bibekImage from "/images/aisummit/bibek.jpeg"
+import mikeyImage from "/images/aisummit/mikey.png"
+import amardeepImage from "/images/aisummit/Amardeep.png"
+
 
 
 const speakers = [
@@ -18,28 +21,29 @@ const speakers = [
     image:
       bibekImage,
   },
-  {
-    name: "Coming Soon",
-    role: "Industry Expert",
-    organization: "Innovation Partner",
+   {
+    name: "Mikey Sharma",
+    role: "Software Engineer",
+    organization: "Neelgai",
     image:
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500",
+      mikeyImage,
   },
   {
-    name: "Coming Soon",
-    role: "AI Engineer",
-    organization: "Startup Founder",
+    name: "Amardeep Soni",
+    role: "Software Developer",
+    organization: "",
     image:
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=500",
+      amardeepImage,
   },
+ 
 ];
 
 export default function Speakers() {
   return (
-    <section className="py-24 bg-slate-100">
+    <section className="py-20 bg-slate-100">
       <div className="max-w-7xl mx-auto px-6">
 
-        <div className="text-center mb-20">
+        <div className="text-center mb-10">
           <p className="uppercase tracking-[5px] text-cyan-600 font-semibold">
             Featured Speakers
           </p>
