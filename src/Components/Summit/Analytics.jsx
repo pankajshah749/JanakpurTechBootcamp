@@ -7,13 +7,13 @@ const stats = [
 
 const Analytics = () => {
   return (
-    <div className="flex justify-center items-center mt-5  mb-10 gap-x-[100px]">
+    <div className="flex justify-center items-center mt-5  mb-10 md:gap-x-20 ">
       {stats.map((stat, index) => (
         <div key={index} className="text-center">
-          <div className="text-blue-950 text-7xl font-bold px-5 py-3">
+          <div className="text-blue-950  md:text-7xl text-5xl  font-bold px-5 py-3">
             {stat.value}
           </div>
-          <div className="text-black text-xl font-semibold">{stat.label}</div>
+          <div className="text-black md:text-xl sm:text-md font-semibold">{stat.label}</div>
         </div>
       ))}
     </div>
