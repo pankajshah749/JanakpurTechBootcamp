@@ -78,6 +78,12 @@ function Header() {
             >
               Courses
             </Link>
+             <Link
+            to="/aisummit"
+            className="hover:text-blue-700 hover:font-bold transition"
+          >
+            AI Summit
+          </Link>
             {/* <Link
               to="/SponsorUS"
               className="hover:text-blue-700 hover:font-bold transition"
