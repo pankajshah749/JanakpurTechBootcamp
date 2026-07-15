@@ -35,9 +35,9 @@ export const Home = () => {
   };
 
   return (
-    <section id="home" className="w-full h-full relative overflow-hidden">
+    <section id="home" className="relative w-full overflow-hidden">
       <video
-        className="w-full h-[600px] object-cover"
+        className="w-full h-[300px] sm:h-[500px] md:h-[600px] lg:h-[700px] object-cover"
         ref={videoRef}
         key={currentIndex}
         src={videoPlaylist[currentIndex]}
@@ -45,34 +45,35 @@ export const Home = () => {
         muted
         onEnded={handleVideo}
       />
-      <div className="absolute inset-0 bg-black/70 flex flex-col justify-center p-6 text-white">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold max-w-4xl">
-          AI Summit Janakpur 2026
-        </h1>
+      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/70 to-black/80 flex flex-col justify-center px-4 sm:px-6 md:px-8 lg:px-12 py-8 sm:py-12 md:py-16 text-white">
+        <div className="max-w-4xl">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight">
+            AI Summit Janakpur 2026
+          </h1>
 
-        <p className="text-2xl sm:text-3xl font-semibold mt-6 max-w-3xl">
-          Empowering the next generation through Artificial Intelligence
-        </p>
-        <p className="mt-5 text-lg sm:text-xl max-w-2xl text-slate-200">
-          25 July 2026 · Janakpurdham ·
-        </p>
+          <p className="mt-4 sm:mt-6 md:mt-8 text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-slate-100 leading-relaxed">
+            Empowering the next generation through Artificial Intelligence
+          </p>
 
-        <div className="mt-10 flex flex-col sm:flex-row items-start sm:items-center gap-4">
-          <div  className="inline-flex items-center justify-center rounded-full bg-blue-900 px-7 py-4 text-xl font-semibold text-white hover:border-white hover:border-2  hover:bg-white/10 transition-x-duration-300">
-          <a
-            href="https://luma.com/kav3l6sb"
-           
-          >
-            Register Now
-          </a>
+          <p className="mt-3 sm:mt-4 md:mt-6 text-base sm:text-lg md:text-xl text-slate-300">
+            25 July 2026 · Janakpurdham
+          </p>
+
+          <div className="mt-6 sm:mt-8 md:mt-10 flex flex-col xs:flex-row gap-3 sm:gap-4">
+            <a
+              href="https://luma.com/kav3l6sb"
+              className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-blue-600 to-cyan-500 px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold text-white hover:shadow-lg hover:shadow-blue-500/50 transition duration-300 transform hover:scale-105 w-full sm:w-auto text-center"
+            >
+              Register Now
+            </a>
+
+            <Link
+              to="/aisummit/sponsor"
+              className="inline-flex items-center justify-center rounded-full border-2 border-white bg-white/10 px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold text-white hover:bg-white/20 hover:shadow-lg transition duration-300 w-full sm:w-auto text-center"
+            >
+              Sponsor Us
+            </Link>
           </div>
-          <Link to = "/aisummit/sponsor"
-          
-            className="inline-flex items-center justify-center rounded-full border border-white bg-white/10 px-7 py-4 text-xl font-semibold text-white   hover:bg-blue-900 hover:border-white/50 transition-x-300"
-          >
-            
-            Sponsor Us
-          </Link>
         </div>
       </div>
     </section>
@@ -80,4 +81,3 @@ export const Home = () => {
 };
 
 export default Home;
-
