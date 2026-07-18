@@ -76,15 +76,15 @@ const schedule = [
     description:
       "An introductory session covering Artificial Intelligence, Machine Learning, Deep Learning, LangChain, and their real-world applications.",
   },
-  {
-    // time: "03:00 PM",
-    title: "Career Opportunities in AI",
-    type: "Career",
-    icon: Brain,
-    color: "bg-indigo-600",
-    description:
-      "Explore AI careers, required skills, internships, startup opportunities, and future learning pathways.",
-  },
+  // {
+  //   // time: "03:00 PM",
+  //   title: "Career Opportunities in AI",
+  //   type: "Career",
+  //   icon: Brain,
+  //   color: "bg-indigo-600",
+  //   description:
+  //     "Explore AI careers, required skills, internships, startup opportunities, and future learning pathways.",
+  // },
   {
     // time: "04:30 PM",
 
@@ -93,7 +93,7 @@ const schedule = [
     icon: Award,
     color: "bg-red-500",
     description:
-      "Certificate distribution, appreciation to speakers and sponsors, and launch of the AI community initiative.",
+      "A closing ceremony to recognize participants, celebrate achievements, and announce future initiatives.",
   },
 ];
 
