@@ -134,9 +134,9 @@ export default function WhyAttend() {
           </p>
 
           <div className="mt-10 flex flex-wrap justify-center gap-5">
-            <a href="https://luma.com/kav3l6sb">
+            <a>
             <button  className="rounded-xl bg-cyan-500 px-8 py-4 cursor-pointer text-lg font-semibold text-white transition hover:bg-cyan-600">
-              Register Now
+              Registeration closed 
             </button>
             </a>
 
