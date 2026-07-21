@@ -6,6 +6,7 @@ import WhyAttend from "./Summit/WhyAttend";
 import Agenda from "./Summit/Agenda";
 import Speakers from "./Summit/Speakers";
 import Organizers from "./Summit/Organizers";
+import Sponsors from "./Summit/Sponsors";
 
 const AISummit = () => {
   return (
@@ -16,6 +17,7 @@ const AISummit = () => {
       <Agenda />
       <Speakers />
       <Organizers />
+      <Sponsors/>
 
     </main>
   );
