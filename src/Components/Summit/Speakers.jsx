@@ -10,13 +10,13 @@ const speakers = [
   {
     name: "Deepak Sah",
     role: "Co-founder",
-    organization: "Neelgai - USA",
+    organization: "Neelgai",
     image: deepakImage,
   },
   {
     name: "Bibek Sah",
     role: "CEO",
-    organization: "Nexalaris - Janakpur",
+    organization: "Nexalaris",
     image: bibekImage,
   },
   {
@@ -28,13 +28,13 @@ const speakers = [
   {
     name: "Mikey Sharma",
     role: "Software Engineer",
-    organization: "Neelgai - Remote",
+    organization: "Neelgai ",
     image: mikeyImage,
   },
   {
     name: "Amardeep Soni",
     role: "Software Developer",
-    organization: "Izon Tech Solutions - USA",
+    organization: "Izon Tech Solutions",
     image: amardeepImage,
   },
   {

@@ -14,6 +14,12 @@ const sponsors = [
     location: "New York",
     image: null,
   },
+   {
+    id: 3,
+    name: "Abhisekh Upadhyay",
+    location: "New York",
+    image: null,
+  },
 ];
 
 const company = {
@@ -45,7 +51,7 @@ export default function Sponsors() {
         </div>
 
         {/* Personal Sponsors */}
-        <div className="grid gap-6 lg:grid-cols-2 mb-10 ">
+        <div className="grid gap-6 lg:grid-cols-3 mb-10 ">
           {sponsors.map((sponsor, index) => (
             <div
               key={sponsor.id}
