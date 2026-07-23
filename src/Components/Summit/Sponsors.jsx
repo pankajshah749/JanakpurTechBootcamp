@@ -14,6 +14,12 @@ const sponsors = [
     location: "New York",
     image: null,
   },
+   {
+    id: 3,
+    name: "Abhisekh Upadhyay",
+    location: "New York",
+    image: null,
+  },
 ];
 
 const company = {
@@ -45,35 +51,22 @@ export default function Sponsors() {
         </div>
 
         {/* Personal Sponsors */}
-        <div className="grid gap-6 lg:grid-cols-2 mb-10 ">
+        <div className="grid gap-6 lg:grid-cols-3 mb-10 ">
           {sponsors.map((sponsor, index) => (
             <div
               key={sponsor.id}
               className="sponsor-float rounded-4xl  p-5 border-2"
               style={{ animationDelay: `${index * 120}ms` }}
             >
-              {/* {sponsor.image ? (
-                <img
-                  src={sponsor.image}
-                  alt={sponsor.name}
-                  className="h-52 w-full rounded-[1.75rem] object-cover mb-6"
-                />
-              ) : (
-                <div className="mb-6 flex h-52 items-center justify-center rounded-[1.75rem] bg-slate-900 text-white text-5xl font-bold">
-                  {sponsor.name
-                    .split(" ")
-                    .map((word) => word[0])
-                    .join("")}
-                </div>
-              )} */}
+           
 
               <div className="text-center">
                 <h3 className="text-2xl font-bold text-white mb-2">
                   {sponsor.name}
                 </h3>
-                <p className="text-cyan-300 font-semibold mb-4">
+                {/* <p className="text-cyan-300 font-semibold mb-4">
                   Personal Sponsor
-                </p>
+                </p> */}
                 <div className="inline-flex items-center gap-2 rounded-full bg-slate-900/70 px-4 py-2 text-slate-300 text-sm">
                   <MapPin size={18} className="text-cyan-300" />
                   {sponsor.location}
