@@ -34,6 +34,12 @@ function Header() {
             Courses
           </Link>
           <Link
+            to="/frame"
+            className="hover:text-blue-700 hover:font-bold transition"
+          >
+            Frame
+          </Link>
+          <Link
             to="/aisummit"
             className="hover:text-blue-700 hover:font-bold transition"
           >
@@ -80,6 +86,13 @@ function Header() {
               onClick={() => setIsOpen(false)}
             >
               Courses
+            </Link>
+            <Link
+              to="/frame"
+              className="hover:text-blue-700 hover:font-bold transition"
+              onClick={() => setIsOpen(false)}
+            >
+              Frame
             </Link>
             <Link
               to="/aisummit"

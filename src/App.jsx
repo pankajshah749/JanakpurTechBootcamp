@@ -16,6 +16,7 @@ import MentorVolunteer from './Components/MentorVolunteer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import AISummit from './Components/AISummit'
 import Sponsor from './Components/Summit/Sponsor'
+import Frame from './Components/Frame'
 
 
 function App() {
@@ -37,7 +38,7 @@ function App() {
         <Route path ="/MentorVolunteer" element = {<MentorVolunteer/>}/>
         <Route path ="/aisummit" element = {<AISummit/>}/>
         <Route path ="/aisummit/sponsor" element ={<Sponsor/>}/>
-
+        <Route path ="/frame" element = {<Frame/>}/>
 
 
 
