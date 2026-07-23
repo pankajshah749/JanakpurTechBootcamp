@@ -3,6 +3,8 @@ import deepakImage from "/images/aisummit/deepak.png";
 import bibekImage from "/images/aisummit/bibek.jpeg";
 import mikeyImage from "/images/aisummit/mikey.png";
 import amardeepImage from "/images/aisummit/Amardeep.png";
+import raviImage from "/images/aisummit/ravikumar.png";
+import bibkeThapaImage from "/images/aisummit/bibekthapa.png";
 
 const speakers = [
   {
@@ -18,6 +20,12 @@ const speakers = [
     image: bibekImage,
   },
   {
+    name: "Ravi Kumar",
+    role: "Senior Program Officer",
+    organization: "World Bank",
+    image: raviImage,
+  },
+  {
     name: "Mikey Sharma",
     role: "Software Engineer",
     organization: "Neelgai - Remote",
@@ -28,6 +36,12 @@ const speakers = [
     role: "Software Developer",
     organization: "Izon Tech Solutions - USA",
     image: amardeepImage,
+  },
+  {
+    name: "Bibek Thapa",
+    role: "AI Engineer",
+    organization: "IArnold IT Systems GmbH & Co. KG",
+    image: bibkeThapaImage,
   },
 ];
 
@@ -53,7 +67,8 @@ export default function Speakers() {
           {speakers.map((speaker, index) => (
             <div
               key={index}
-              className="rounded-3xl bg-white overflow-hidden shadow-lg hover:-translate-y-2 transition"
+              className="fade-up rounded-3xl bg-white overflow-hidden shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-transform duration-300"
+              style={{ animationDelay: `${index * 120}ms` }}
             >
               <img
                 src={speaker.image}
