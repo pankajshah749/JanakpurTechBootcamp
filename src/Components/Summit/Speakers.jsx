@@ -5,6 +5,8 @@ import mikeyImage from "/images/aisummit/mikey.png";
 import amardeepImage from "/images/aisummit/Amardeep.png";
 import raviImage from "/images/aisummit/ravikumar.png";
 import bibkeThapaImage from "/images/aisummit/bibekthapa.png";
+import kunalSahImage from "/images/aisummit/kunal.jpeg";
+import satyendraImage from "/images/aisummit/satyendra.jpeg"
 
 const speakers = [
   {
@@ -42,6 +44,18 @@ const speakers = [
     role: "AI Engineer",
     organization: "IArnold IT Systems GmbH & Co. KG",
     image: bibkeThapaImage,
+  },
+    {
+    name: "Kunal Sah",
+    role: "Founder & CEO",
+    organization: "Hireshore , TalentSathi",
+    image: kunalSahImage,
+  },
+   {
+    name: "Satyendra Sah",
+    role: "Software Engineer",
+    organization: "TCS",
+    image: satyendraImage,
   },
 ];
 
