@@ -215,11 +215,11 @@ export default function Agenda() {
                   >
                     <div className="flex items-center gap-4">
                       {/* Icon */}
-                      <div
+                      {/* <div
                         className={`hidden md:flex h-11 w-11 rounded-xl ${item.color} items-center justify-center shrink-0`}
                       >
                         <Icon size={20} />
-                      </div>
+                      </div> */}
 
                       {/* Content */}
                       <div className="flex-1">
