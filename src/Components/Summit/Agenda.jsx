@@ -17,7 +17,7 @@ const schedule = [
     // time: "08:30 AM",
     title: "Registration & Welcome",
     type: "Networking",
-    icon: Users,
+    // icon: Users,
     color: "bg-cyan-500",
     description:
       "Complete registration, collect summit materials, meet fellow participants, and explore sponsor booths before the opening ceremony.",
@@ -26,16 +26,35 @@ const schedule = [
     // time: "09:30 AM",
     title: "Opening Ceremony",
     type: "Opening",
-    icon: Sparkles,
+    // icon: Sparkles,
     color: "bg-blue-600",
     description:
       "Welcome speech, summit vision, introduction of guests, and overview of the day's learning experience.",
   },
-  {
+
+   {
+    // time: "10:00 AM",
+    title: "History of AI",
+    type: "Keynote",
+    // icon: Brain,
+    color: "bg-violet-600",
+    description:
+    "See how AI evolved time to time"
+  },
+   {
+    // time: "10:00 AM",
+    title: "AI in Software Engineering Field",
+    type: "Keynote",
+    // icon: Brain,
+    color: "bg-violet-600",
+    description:
+    "Session on difference on software engineering field before 20 years ago and now "
+  },
+    {
     // time: "10:00 AM",
     title: "The Future of Artificial Intelligence",
     type: "Keynote",
-    icon: Brain,
+    // icon: Brain,
     color: "bg-violet-600",
     description:
       "Discover how Artificial Intelligence is transforming industries, education, healthcare, business, and society across the globe.",
@@ -44,38 +63,90 @@ const schedule = [
     // time: "11:00 AM",
     title: "Panel Discussion",
     type: "Discussion",
-    icon: Mic,
+    // icon: Mic,
     color: "bg-emerald-500",
     description:
       "A panel of AI researchers, educators, and industry leaders discuss real-world applications, future trends, and opportunities in Artificial Intelligence.",
+  },
+    {
+    // time: "10:00 AM",
+    title: "Automation in computer vision",
+    type: "Keynote",
+    // icon: Brain,
+    color: "bg-violet-600",
+    description:
+    " See the session on how computer vision works and what it is "
+  },
+    {
+    // time: "01:00 PM",
+    title: "Lunch & Networking",
+    type: "Networking",
+    // icon: Coffee,
+    color: "bg-amber-600",
+    description:
+      "Connect with speakers, mentors, students, startups, and technology professionals while enjoying lunch.",
+  },
+    {
+    // time: "10:00 AM",
+    title: "AI on Venture",
+    type: "Keynote",
+    // icon: Brain,
+    color: "bg-violet-600",
+    description:
+    " "
+  },
+    {
+    // time: "02:00 PM",
+    title: "Understanding AI",
+    type: "Session",
+    // icon: Users,
+    color: "bg-pink-600",
+    description:
+      "An introductory session covering Artificial Intelligence, Machine Learning, Deep Learning, LangChain, and their real-world applications.",
   },
   {
     // time: "12:00 PM",
     title: "Live AI Demonstration",
     type: "Workshop",
-    icon: Mic,
+    // icon: Mic,
     color: "bg-orange-500",
     description:
       "Experience live demonstrations of ChatGPT, image generation, AI assistants, coding tools, and productivity applications.",
   },
-  {
-    // time: "01:00 PM",
-    title: "Lunch & Networking",
-    type: "Networking",
-    icon: Coffee,
-    color: "bg-amber-600",
-    description:
-      "Connect with speakers, mentors, students, startups, and technology professionals while enjoying lunch.",
+   {
+    // time: "12:00 PM",
+    title: "Our Next Plan",
+    type: "Workshop",
+    // icon: Mic,
+    color: "bg-orange-500",
+    description:"After this AI Summit what would be the next plan of janakpurTech Bootcamp"
   },
-  {
-    // time: "02:00 PM",
-    title: "Understanding AI",
-    type: "Session",
-    icon: Users,
-    color: "bg-pink-600",
-    description:
-      "An introductory session covering Artificial Intelligence, Machine Learning, Deep Learning, LangChain, and their real-world applications.",
+   {
+    // time: "12:00 PM",
+    title: "Feedback Session",
+    type: "Workshop",
+    // icon: Mic,
+    color: "bg-orange-500",
+    description:"Feedback by audience about the AI Summit"
   },
+   {
+    // time: "12:00 PM",
+    title: "Closing Remarks",
+    type: "Workshop",
+    // icon: Mic,
+    color: "bg-orange-500",
+    description:"closing remarks with photo session "
+  },
+   {
+    // time: "12:00 PM",
+    title: "Connection building and Evening",
+    type: "Workshop",
+    // icon: Mic,
+    color: "bg-orange-500",
+    description: "A Evening refreshment and connection building "
+  },
+
+
   // {
   //   // time: "03:00 PM",
   //   title: "Career Opportunities in AI",
@@ -90,7 +161,7 @@ const schedule = [
 
     title: "Closing Ceremony",
     type: "Closing",
-    icon: Award,
+    // icon: Award,
     color: "bg-red-500",
     description:
       "A closing ceremony to recognize participants, celebrate achievements, and announce future initiatives.",

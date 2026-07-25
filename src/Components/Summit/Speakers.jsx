@@ -35,7 +35,7 @@ const speakers = [
   },
   {
     name: "Amardeep Soni",
-    role: "Software Developer",
+    role: "Software Engineer",
     organization: "Izon Tech Solutions",
     image: amardeepImage,
   },
@@ -51,6 +51,7 @@ const speakers = [
     organization: "Hireshore , TalentSathi",
     image: kunalSahImage,
   },
+  
    {
     name: "Satyendra Sah",
     role: "Software Engineer",
