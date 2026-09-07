@@ -26,11 +26,8 @@ function Footer() {
             <div className="hover:text-blue-400">
             About
             </div>
+            
             </Link>
-
-
-
-
             <li><a href="" className="hover:text-blue-400">Apply</a></li>
             <li><a href="#faq" className="hover:text-blue-400">FAQ</a></li>
           </ul>
