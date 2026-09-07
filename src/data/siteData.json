@@ -1,0 +1,229 @@
+{
+  "site": {
+    "name": "JANAKPUR TECH BOOTCAMP",
+    "mark": "J",
+    "location": "POWERED BY NEELGAI",
+    "registrationUrl": "https://lu.ma/neelgai-bootcamp",
+    "summitUrl": "/aisummit",
+    "email": "janakpurtechbootcamp@gmail.com"
+  },
+  "navigation": [
+    { "label": "Program", "href": "#program", "footer": true },
+    { "label": "Journey", "href": "#journey", "footer": true },
+    { "label": "Curriculum", "href": "#curriculum", "footer": true },
+    { "label": "Gallery", "href": "#gallery", "footer": true },
+    { "label": "Team", "href": "#team", "footer": false },
+    { "label": "FAQ", "href": "#faq", "footer": false },
+    { "label": "AI Summit ↗", "href": "/aisummit", "footer": false }
+  ],
+  "header": {
+    "ctaLabel": "Register now",
+    "mobileCtaLabel": "Register now"
+  },
+  "hero": {
+    "badge": "Applications open · Winter 2026",
+    "headline": ["Build for the web.", "Think with AI."],
+    "accentLine": 1,
+    "description": "A focused 3-month engineering bootcamp in Janakpur. Learn React, Django and practical AI integration—then ship work you can show.",
+    "primaryCta": { "label": "Register now", "href": "https://lu.ma/neelgai-bootcamp" },
+    "secondaryCta": { "label": "Explore the curriculum", "href": "#curriculum" },
+    "image": "/images/bootcamp.jpg",
+    "imageAlt": "Janakpur Tech Bootcamp students learning together",
+    "imageLabel": "01 / LIVE LAB",
+    "imageCaption": ["Learn by building,", "not by watching."],
+    "stats": [
+      { "value": "03", "lines": ["Months of", "focused learning"] },
+      { "value": "12", "lines": ["Weeks from UI", "to deployment"] },
+      { "value": "10+", "lines": ["Projects shipped", "to GitHub"] },
+      { "value": "01", "lines": ["Instructor-led", "learning path"] }
+    ]
+  },
+  "advantages": {
+    "id": "program",
+    "kicker": "01 / THE BOOTCAMP 3.0 ADVANTAGE",
+    "titleLines": ["One clear path from", "fundamentals to full-stack."],
+    "accentLine": 1,
+    "text": "No disconnected modules. Every week builds directly on the one before it.",
+    "items": [
+      { "number": "01", "icon": "layers", "title": "One instructor. One clear path.", "text": "Move from frontend to backend to AI without changing teaching styles or juggling parallel tracks." },
+      { "number": "02", "icon": "bot", "title": "AI that works inside real apps.", "text": "Connect Gemini and OpenAI APIs to useful products—not isolated demos or prompt-only exercises." },
+      { "number": "03", "icon": "database", "title": "Backend without the setup drama.", "text": "Use Django ORM and SQLite so your attention stays on data models, APIs and product logic." },
+      { "number": "04", "icon": "rocket", "title": "A portfolio that is live.", "text": "Ship 10+ GitHub projects and finish with a deployed full-stack capstone ready for Demo Day." }
+    ]
+  },
+  "journey": {
+    "id": "journey",
+    "kicker": "02 / OUR JOURNEY",
+    "titleLines": ["Every program", "earned its own story."],
+    "text": "Bootcamps built capability. Hackathons tested it. Each milestone moved Janakpur’s technology community forward in a different way.",
+    "items": [
+      {
+        "year": "2024", "category": "BOOTCAMP 1.0", "kind": "bootcamp", "meta": "LEARNING PROGRAM",
+        "title": "The first full-stack cohort",
+        "story": "We opened our first focused learning room around React, Django and the habits of practical software development.",
+        "resultLabel": "WHAT IT CHANGED",
+        "result": "Students moved beyond college theory and began building, versioning and presenting working web applications.",
+        "image": "/images/second.jpg"
+      },
+      {
+        "year": "2024", "category": "HACKATHON 1.0", "kind": "hackathon", "meta": "BUILD SPRINT",
+        "title": "Janakpur builds under pressure",
+        "story": "The city’s first community hackathon brought teams together to move from problem statements to working prototypes.",
+        "resultLabel": "WHAT IT PROVED",
+        "result": "Local builders could collaborate, make technical decisions quickly and present their ideas to a judging panel.",
+        "image": "/hackathon/hackathon2.jpg"
+      },
+      {
+        "year": "2025", "category": "BOOTCAMP 2.0", "kind": "bootcamp", "meta": "LEARNING PROGRAM",
+        "title": "A deeper move into data and AI",
+        "story": "The second cohort expanded the program into Python, machine learning and intelligent systems through project-led sessions.",
+        "resultLabel": "WHAT IT CHANGED",
+        "result": "Learners gained a practical path into AI by working with datasets, models and real application ideas—not theory alone.",
+        "image": "/images/fifth.jpg"
+      },
+      {
+        "year": "2025", "category": "COMMUNITY HACKATHON 2.0", "kind": "hackathon", "meta": "BUILD SPRINT",
+        "title": "The community returned to ship again",
+        "story": "A second rapid-build sprint gave new teams the same intense cycle of ideation, coding, feedback and final demos.",
+        "resultLabel": "WHAT IT PROVED",
+        "result": "The first event was not a one-off. Janakpur now had a repeatable stage for teamwork, competition and youth innovation.",
+        "image": "/hackathon/hackathon9.jpg"
+      },
+      {
+        "year": "2026", "category": "JANAKPUR AI SUMMIT", "kind": "summit", "meta": "COMMUNITY STAGE",
+        "title": "A regional conversation about AI",
+        "story": "We brought speakers, students and technology enthusiasts into one room for ideas, questions and community connection.",
+        "resultLabel": "WHAT IT UNLOCKED",
+        "result": "The community gained direct access to industry perspectives and a larger vision for technology leadership in Madhesh.",
+        "image": "/images/aisummit/Anjali.jpeg"
+      },
+      {
+        "year": "2026", "category": "BOOTCAMP 3.0 · CURRENT", "kind": "bootcamp current", "meta": "LEARNING PROGRAM",
+        "title": "Full-stack engineering meets AI",
+        "story": "The new program joins modern frontend, dependable backend architecture and practical AI APIs in one sequential path.",
+        "resultLabel": "WHAT STUDENTS WILL SHIP",
+        "result": "Ten-plus GitHub projects and a deployed full-stack AI capstone built for a live portfolio and Demo Day.",
+        "image": "/images/bootcamp.jpg"
+      }
+    ]
+  },
+  "curriculum": {
+    "id": "curriculum",
+    "kicker": "03 / THE CURRICULUM",
+    "titleLines": ["Twelve weeks.", "Three focused stages."],
+    "accentLine": 0,
+    "text": "A sequential path designed to build confidence before complexity.",
+    "tabsAriaLabel": "Curriculum months",
+    "deliverableLabel": "YOU WILL SHIP",
+    "durationBadge": "60 DAYS",
+    "durationDetail": "Full program across twelve structured weeks of learning.",
+    "months": [
+      {
+        "month": "Month 01", "weeks": "WEEKS 1—4", "icon": "braces",
+        "title": "Modern UI & React Foundations",
+        "summary": "Build responsive interfaces, learn the modern JavaScript you actually need, and start thinking in reusable components.",
+        "topics": ["Tailwind CSS & responsive systems", "Git and GitHub workflow", "Modern JavaScript for React", "Components, props and composition", "useState and useEffect"],
+        "deliverable": "Developer portfolio + live discovery app"
+      },
+      {
+        "month": "Month 02", "weeks": "WEEKS 5—8", "icon": "database",
+        "title": "React Systems & Django APIs",
+        "summary": "Connect a structured frontend to a real backend while learning how product data moves through an application.",
+        "topics": ["React Router & Context API", "Python OOP foundations", "Django MVT architecture", "SQLite data modelling", "Django REST Framework CRUD"],
+        "deliverable": "Multi-page commerce UI + production REST API"
+      },
+      {
+        "month": "Month 03", "weeks": "WEEKS 9—12", "icon": "sparkles",
+        "title": "Authentication, AI & Deployment",
+        "summary": "Secure the stack, add intelligence through APIs, deploy it to the cloud, and tell the story of what you built.",
+        "topics": ["JWT token authentication", "Gemini & OpenAI API integration", "Frontend/backend integration", "Vercel + Render or Railway", "Capstone sprint & Demo Day"],
+        "deliverable": "Deployed full-stack AI web application"
+      }
+    ]
+  },
+  "gallery": {
+    "id": "gallery",
+    "kicker": "04 / MOMENTS FROM THE ROOM",
+    "titleLines": ["More than classes.", "A growing tech community."],
+    "accentLine": 1,
+    "text": "Real rooms, real deadlines and real people building together across Madhesh Province.",
+    "allLabel": "All Events",
+    "filterAriaLabel": "Filter event gallery",
+    "summitLinkLabel": "Explore the Janakpur AI Summit 2026",
+    "summitLinkHref": "/aisummit",
+    "items": [
+      { "category": "Hackathons", "image": "/hackathon/hackathon2.jpg", "eyebrow": "INNOVATION SPRINT", "title": "Ideas become prototypes" },
+      { "category": "Hackathons", "image": "/hackathon/hackathon9.jpg", "eyebrow": "COMMUNITY", "title": "Builders meet builders" },
+      { "category": "Hackathons", "image": "/hackathon/hackathon3.jpg", "eyebrow": "DEMO DAY", "title": "Presenting under pressure" },
+      { "category": "Bootcamps", "image": "/images/first.jpg", "eyebrow": "LIVE LAB", "title": "Learning in the room" },
+      { "category": "Bootcamps", "image": "/images/second.jpg", "eyebrow": "TEAMWORK", "title": "Solving problems together" },
+      { "category": "Bootcamps", "image": "/images/fifth.jpg", "eyebrow": "PROJECT WORK", "title": "Hands on, every week" },
+      { "category": "AI Summit", "image": "/images/aisummit/Amardeep.png", "eyebrow": "AI SUMMIT 2026", "title": "Industry voices in Janakpur" },
+      { "category": "AI Summit", "image": "/images/aisummit/Anjali.jpeg", "eyebrow": "SPEAKER LINEUP", "title": "A regional tech stage" }
+    ]
+  },
+  "testimonials": {
+    "id": "stories",
+    "kicker": "05 / FROM THE COMMUNITY",
+    "titleLines": ["The work changes", "what feels possible."],
+    "accentLine": 1,
+    "text": "What students say after shipping real projects through the program.",
+    "items": [
+      { "quote": "The web development course was hands-on and practical. I built real projects and now feel confident as a developer.", "name": "Anjali Gupta", "role": "Web Development Student", "image": "/images/anjali.png" },
+      { "quote": "The bootcamp transformed my coding skills—from fundamentals to building full-stack apps with React and Python.", "name": "Satyam Sah", "role": "Web Development Student", "image": "/images/satyam.png" },
+      { "quote": "I loved the community and support from mentors. The curriculum was current and connected to industry practice.", "name": "Sanjana Yadav", "role": "Bootcamp Graduate", "image": "/images/sanjana.jpg" }
+    ]
+  },
+  "team": {
+    "id": "team",
+    "kicker": "06 / PEOPLE BEHIND THE BOOTCAMP",
+    "titleLines": ["Focused teaching.", "Strong support."],
+    "accentLine": 1,
+    "text": "A small team with clearly defined roles around the student experience.",
+    "members": [
+      { "name": "Amardeep Soni", "role": "Lead Instructor & Technical Lead", "image": "/images/aisummit/Amardeep.png", "email": "janakpurtechbootcamp@gmail.com", "bio": "Full-stack and Python/Django specialist leading the complete learning journey through live coding and hands-on architecture." },
+      { "name": "Pankaj Sah", "role": "Operations & Student Experience", "image": "/images/pankajImage.jpg", "email": "janakpurtechbootcamp@gmail.com", "bio": "Coordinates logistics, onboarding, scheduling and the day-to-day experience that keeps every cohort moving." },
+      { "name": "Suruchi Shah", "role": "Marketing & Community Storytelling", "image": "/images/suruchi.jpg", "email": "janakpurtechbootcamp@gmail.com", "bio": "Shares the bootcamp’s work with the community and helps future learners understand the path into the program." },
+      { "name": "Sanjana Yadav", "role": "Outreach & Partnerships", "image": "/images/sanjana.jpg", "email": "janakpurtechbootcamp@gmail.com", "bio": "Builds relationships with students, colleges and local partners across Janakpur and Madhesh Province." }
+    ]
+  },
+  "faq": {
+    "id": "faq",
+    "kicker": "07 / BEFORE YOU APPLY",
+    "titleLines": ["Questions,", "answered plainly."],
+    "accentLine": 1,
+    "text": "Everything students and parents ask before joining a new cohort.",
+    "answerTag": "ANSWER",
+    "items": [
+      { "question": "What if I do not know programming yet?", "answer": "You can still prepare. Before the screening, learn variables, conditions, loops and functions in C, C++ or Java, plus basic HTML and CSS. Dedication and basic logical thinking matter more than already knowing every tool." },
+      { "question": "How does the screening interview work?", "answer": "It is a friendly 10-minute conversation about basic logic, your motivation, laptop readiness and whether you can commit to the daily learning schedule." },
+      { "question": "How do I register?", "answer": "Registration, reminders, interview updates and calendar details are handled in one reliable place. You will leave this website to complete your application securely there." },
+      { "question": "Do I need a high-end laptop?", "answer": "No. A standard working Windows, Mac or Linux laptop with 8GB RAM is enough for VS Code, Python, Vite, Django and SQLite." },
+      { "question": "What happens around public holidays?", "answer": "The program includes a built-in 10-day flex buffer for public holidays, catch-up labs and project sprints, so the core curriculum does not need to be rushed." }
+    ]
+  },
+  "finalCta": {
+    "id": "register",
+    "kicker": "APPLICATIONS · WINTER 2026",
+    "titleLines": ["Ready to build", "something real?"],
+    "accentLine": 1,
+    "text": "Applications are reviewed on a rolling basis. Start with a short registration, then meet us for a friendly screening conversation.",
+    "buttonLabel": "Register now",
+    "buttonHref": "https://lu.ma/neelgai-bootcamp",
+    "icon": "code"
+  },
+  "footer": {
+    "mission": "Empowering next-generation tech talent in Janakpur and Madhesh Province.",
+    "navigationLabel": "NAVIGATE",
+    "connectLabel": "CONNECT",
+    "connectLinks": [
+      { "label": "Email us", "href": "mailto:janakpurtechbootcamp@gmail.com" },
+      { "label": "AI Summit 2026", "href": "/aisummit" },
+      { "label": "Register now", "href": "https://lu.ma/neelgai-bootcamp", "external": true }
+    ],
+    "techStack": "React · Django · AI",
+    "techNote": "Build locally. Ship globally.",
+    "copyright": "© 2026 Janakpur Tech Bootcamp · Powered by Neelgai. All rights reserved.",
+    "location": "JANAKPUR DHAM · NEPAL"
+  }
+}
