@@ -23,9 +23,9 @@ export default function Home() {
         <JourneySection section={journey} />
         <CurriculumSection />
         <GallerySection />
-        <TestimonialsSection section={testimonials} />
-        <TeamSection section={team} />
         <FAQSection />
+        <TeamSection section={team} />
+        <TestimonialsSection section={testimonials} />
         <FinalCtaSection finalCta={finalCta} />
       </main>
       <SiteFooter footer={footer} navigation={navigation} site={site} />

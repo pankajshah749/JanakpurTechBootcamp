@@ -1,8 +1,6 @@
 import React from "react";
-import deepakImage from "/images/aisummit/deepak.png";
 import anjaliImage from "/images/aisummit/Anjali.jpeg";
 import pankajImage from "/images/aisummit/pankajImage.jpg";
-import sanjanaImage from "/images/aisummit/sanjana.jpg";
 
 const Teams = [
   {
@@ -15,12 +13,6 @@ const Teams = [
     name: "Pankaj Sah",
     role: "Logistics & Operations Lead",
     image: pankajImage,
-  },
-  {
-    name: "Sanjana yadav",
-    role: "Marketing & Outreach Lead",
-    organization: "",
-    image: sanjanaImage,
   },
 ];
 
