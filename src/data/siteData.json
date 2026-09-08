@@ -157,10 +157,14 @@
       { "category": "Hackathons", "image": "/gallery/hackathon/hackathon2.jpg", "eyebrow": "INNOVATION SPRINT", "title": "Ideas become prototypes" },
       { "category": "Hackathons", "image": "/gallery/hackathon/hackathon9.jpg", "eyebrow": "COMMUNITY", "title": "Builders meet builders" },
       { "category": "Hackathons", "image": "/gallery/hackathon/hackathon3.jpg", "eyebrow": "DEMO DAY", "title": "Presenting under pressure" },
+      { "category": "Hackathons", "image": "/gallery/hackathon1.0/hackathon4.jpg", "eyebrow": "TEAMWORK", "title": "Collaboration under deadlines" },
+      { "category": "Hackathons", "image": "/gallery/hackathon1.0/hackathon5.jpg", "eyebrow": "PROTOTYPE", "title": "From idea to working app" },
+      { "category": "Hackathons", "image": "/gallery/hackathon1.0/hackathon6.jpg", "eyebrow": "JUDGING PANEL", "title": "Feedback from industry experts" },  
       { "category": "Bootcamps", "image": "/gallery/bootcamp/first.jpg", "eyebrow": "LIVE LAB", "title": "Learning in the room" },
       { "category": "Bootcamps", "image": "/gallery/bootcamp/second.jpg", "eyebrow": "TEAMWORK", "title": "Solving problems together" },
       { "category": "Bootcamps", "image": "/gallery/bootcamp/fifth.jpg", "eyebrow": "PROJECT WORK", "title": "Hands on, every week" },
-      { "category": "AI Summit", "image": "/gallery/summit/Anjali.jpeg", "eyebrow": "SPEAKER LINEUP", "title": "A regional tech stage" }
+      { "category": "AI Summit", "image": "/gallery/summit/Anjali.jpeg", "eyebrow": "SPEAKER LINEUP", "title": "Industry insights and inspiration" },
+      { "category": "AI Summit", "image": "/gallery/summit/Amardeep.png", "eyebrow": "PANEL DISCUSSION", "title": "AI careers in Nepal" }
     ]
   },
   "testimonials": {
