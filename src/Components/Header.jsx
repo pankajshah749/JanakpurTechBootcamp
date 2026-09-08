@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Menu, X } from "lucide-react"; 
+import { Menu, X } from "lucide-react";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +15,10 @@ function Header() {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex space-x-8 text-gray-700 font-medium">
-          <Link to="/" className="hover:text-blue-700 hover:font-bold transition">
+          <Link
+            to="/"
+            className="hover:text-blue-700 hover:font-bold transition"
+          >
             Home
           </Link>
           <Link
@@ -31,11 +34,23 @@ function Header() {
             Courses
           </Link>
           <Link
+            to="/frame"
+            className="hover:text-blue-700 hover:font-bold transition"
+          >
+            Frame
+          </Link>
+          <Link
+            to="/aisummit"
+            className="hover:text-blue-700 hover:font-bold transition"
+          >
+            AI Summit
+          </Link>
+          {/* <Link
             to="/SponsorUS"
             className="hover:text-blue-700 hover:font-bold transition"
           >
             Sponsor US
-          </Link>
+          </Link> */}
         </nav>
 
         {/* Mobile Menu Button */}
@@ -73,13 +88,26 @@ function Header() {
               Courses
             </Link>
             <Link
+              to="/frame"
+              className="hover:text-blue-700 hover:font-bold transition"
+              onClick={() => setIsOpen(false)}
+            >
+              Frame
+            </Link>
+            <Link
+              to="/aisummit"
+              className="hover:text-blue-700 hover:font-bold transition"
+              onClick={() => setIsOpen(false)}
+            >
+              AI Summit
+            </Link>
+            {/* <Link
               to="/SponsorUS"
               className="hover:text-blue-700 hover:font-bold transition"
               onClick={() => setIsOpen(false)}
             >
               Sponsor US
-            </Link>
-
+            </Link> */}
           </nav>
         </div>
       )}
