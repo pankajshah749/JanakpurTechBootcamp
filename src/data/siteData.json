@@ -199,7 +199,7 @@
     "text": "A small team with clearly defined roles around the student experience.",
     "members": [
       { "name": "Amardeep Soni", "role": "Software Engineer & Instructor", "image": "/gallery/teams/amardeep.png", "email": "janakpurtechbootcamp@gmail.com", "bio": "Software Engineer with 4+ years building real products across web, backend, databases, APIs, cloud and AI. At the bootcamp he turns ideas into working products through hands-on projects, practical workflows and real problem-solving." },
-      { "name": "Pankaj Sah", "role": "Operations & Student Experience", "image": "/gallery/teams/pankaj.jpg", "email": "janakpurtechbootcamp@gmail.com", "bio": "Coordinates logistics, onboarding, scheduling and the day-to-day experience that keeps every cohort moving." },
+      { "name": "Pankaj Sah", "role": "Coordinator & Student Experience", "image": "/gallery/teams/pankaj.jpg", "email": "janakpurtechbootcamp@gmail.com", "bio": "Coordinates logistics, onboarding, scheduling and the day-to-day experience that keeps every cohort moving." },
       { "name": "Suruchi Shah", "role": "Marketing & Community Storytelling", "image": "/gallery/teams/suruchi.jpg", "email": "janakpurtechbootcamp@gmail.com", "bio": "Shares the bootcamp’s work with the community and helps future learners understand the path into the program." },
       { "name": "Anup Soni", "role": "Creative & Digital Media", "image": "/gallery/teams/anup.jpeg", "email": "janakpurtechbootcamp@gmail.com", "bio": "Leads the bootcamp's social presence and full visual identity — graphic design, promo videos, flyers and digital creatives for bootcamps, hackathons and the AI Summit." }
     ]
@@ -230,7 +230,7 @@
     "accentLine": 1,
     "text": "Applications are reviewed on a rolling basis. Start with a short registration, then meet us for a friendly screening conversation.",
     "buttonLabel": "Register now",
-    "buttonHref": "https://lu.ma/neelgai-bootcamp",
+    "buttonHref": "https://luma.com/70miv9x9",
     "icon": "code",
     "startDate": {
       "iso": "2026-11-22",
