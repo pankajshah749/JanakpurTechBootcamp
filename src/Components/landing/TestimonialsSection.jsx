@@ -16,8 +16,11 @@ export default function TestimonialsSection({ section }) {
   if (items.length === 0) return null;
 
   const featured = items[active];
-  const rest = items.filter((_, i) => i !== active);
-  const longestQuote = items.reduce((acc, item) => (item.quote.length > acc.length ? item.quote : acc), "");
+  // Show only 3 side cards (circular) so the right pane never grows with total count
+  const sideItems =
+    items.length > 1
+      ? Array.from({ length: Math.min(3, items.length - 1) }, (_, k) => items[(active + 1 + k) % items.length])
+      : [];
 
   return (
     <section
@@ -40,7 +43,9 @@ export default function TestimonialsSection({ section }) {
                 <Quote className="testimonial-feature-quote" size={44} aria-hidden="true" />
                 <blockquote>“{item.quote}”</blockquote>
                 <footer>
-                  <img src={item.image} alt="" loading="lazy" />
+                  <span className="testimonial-avatar" aria-hidden="true">
+                    {item.name.charAt(0)}
+                  </span>
                   <div>
                     <strong>{item.name}</strong>
                     <small>{item.role}</small>
@@ -54,21 +59,21 @@ export default function TestimonialsSection({ section }) {
             ))}
           </div>
           <span className="testimonial-feature-sr">Current testimonial from {featured.name}: "{featured.quote}"</span>
-          {/* Reserve space using the longest quote so layout never reflows */}
-          <p className="testimonial-feature-reserve" aria-hidden="true">“{longestQuote}”</p>
         </div>
 
-        {items.length > 1 && (
+        {sideItems.length > 0 && (
           <aside className="testimonial-side">
             <ul className="testimonial-list" aria-label="Other student voices">
-              {rest.map(item => (
+              {sideItems.map(item => (
                 <li key={item.name}>
                   <button
                     type="button"
                     onClick={() => setActive(items.findIndex(i => i.name === item.name))}
                     aria-label={`Show testimonial from ${item.name}`}
                   >
-                    <img src={item.image} alt="" loading="lazy" />
+                    <span className="testimonial-avatar small" aria-hidden="true">
+                      {item.name.charAt(0)}
+                    </span>
                     <div>
                       <strong>{item.name}</strong>
                       <small>{item.role}</small>

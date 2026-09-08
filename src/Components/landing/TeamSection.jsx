@@ -27,16 +27,17 @@ export default function TeamSection({ section }) {
 
             <div className="team-row-content">
               <div className="team-row-image">
-                <img src={member.image} alt={member.name} loading="lazy" />
+                {member.image ? (
+                  <img src={member.image} alt={member.name} loading="lazy" />
+                ) : (
+                  <span className="team-row-initial" aria-hidden="true">
+                    {member.name.charAt(0)}
+                  </span>
+                )}
                 <span className="team-row-badge">TEAM</span>
               </div>
               <div className="team-row-body">
                 <p>{member.bio}</p>
-                {member.email && (
-                  <a className="team-row-email" href={`mailto:${member.email}`}>
-                    {member.email}
-                  </a>
-                )}
                 <ul className="team-row-tags">
                   {(member.tags || member.role.split("&").map(t => t.trim())).slice(0, 3).map(tag => (
                     <li key={tag}>{tag}</li>

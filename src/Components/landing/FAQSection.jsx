@@ -14,41 +14,6 @@ export default function FAQSection() {
     <section className="faq-section" id={section.id}>
       <SectionIntro section={section} />
 
-      <div className="faq-tabs">
-        <ul className="faq-rail" role="tablist" aria-label={section.kicker}>
-          {items.map((item, index) => (
-            <li key={item.question}>
-              <button
-                role="tab"
-                aria-selected={index === active}
-                className={`faq-tab${index === active ? " is-active" : ""}`}
-                onClick={() => setActive(index)}
-              >
-                <span className="faq-tab-index">{String(index + 1).padStart(2, "0")}</span>
-                <span className="faq-tab-q">{item.question}</span>
-                <ChevronDown className="faq-tab-arrow" size={18} aria-hidden="true" />
-              </button>
-            </li>
-          ))}
-        </ul>
-
-        <div className="faq-stage" role="tabpanel">
-          {items.map((item, index) => (
-            <article
-              key={item.question}
-              className={`faq-answer${index === active ? " is-active" : ""}`}
-              aria-hidden={index === active ? "false" : "true"}
-            >
-              <header>
-                <span className="faq-answer-tag">{section.answerTag || "ANSWER"}</span>
-                <h3>{item.question}</h3>
-              </header>
-              <p>{item.answer}</p>
-            </article>
-          ))}
-        </div>
-      </div>
-
       <div className="faq-accordion" aria-label={section.kicker}>
         {items.map((item, index) => (
           <div key={item.question} className={`faq-row${index === active ? " open" : ""}`}>

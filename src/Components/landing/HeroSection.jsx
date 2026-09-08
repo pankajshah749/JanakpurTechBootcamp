@@ -1,4 +1,4 @@
-import { ArrowDownRight, ArrowRight } from "lucide-react";
+import { ArrowDownRight, ArrowRight, CalendarDays } from "lucide-react";
 import LineTitle from "./LineTitle";
 import SmartLink from "./SmartLink";
 
@@ -14,6 +14,19 @@ export default function HeroSection({ hero }) {
           <div className="hero-actions">
             <SmartLink className="primary-action" href={hero.primaryCta.href}>{hero.primaryCta.label} <ArrowRight size={20} /></SmartLink>
             <SmartLink className="text-action" href={hero.secondaryCta.href}>{hero.secondaryCta.label} <ArrowDownRight size={19} /></SmartLink>
+          </div>
+          <div className="hero-badges">
+            {hero.startDate && (
+              <div className="hero-date-chip" aria-label="Program start date">
+                <CalendarDays size={14} aria-hidden="true" />
+                <span>Cohort starts <strong>{hero.startDate.month} {hero.startDate.day}</strong></span>
+              </div>
+            )}
+            {hero.deadline && (
+              <div className="hero-deadline-chip" aria-label="Application deadline">
+                <span>Applications close <strong>{hero.deadline.month} {hero.deadline.day}</strong></span>
+              </div>
+            )}
           </div>
         </div>
       </div>

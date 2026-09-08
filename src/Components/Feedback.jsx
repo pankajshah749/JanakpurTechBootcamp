@@ -24,18 +24,11 @@ const feedbacks = {
       image: "/images/satyam.png",
     },
     {
-      name: "Rahul Gupta",
+      name: "Rahul Kumar",
       role: "Web Development Student",
       feedback:
         "The course was well-structured and the projects were relevant. Best coding bootcamp I've attended.",
       image: "/images/rahul.jpg",
-    },
-    {
-      name: "Sanjana Yadav",
-      role: "Web Development Student",
-      feedback:
-        "I loved the community and support from mentors. The curriculum was up-to-date with industry trends.",
-      image: "/images/sanjana.jpg",
     },
   ],
   data: [
