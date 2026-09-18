@@ -14,11 +14,31 @@
     { "label": "Gallery", "href": "#gallery", "footer": true },
     { "label": "Team", "href": "#team", "footer": false },
     { "label": "FAQ", "href": "#faq", "footer": false },
+    { "label": "Sponsor the cohort ↗", "href": "/sponsorship", "footer": true, "featured": true },
     { "label": "AI Summit ↗", "href": "/aisummit", "footer": false }
   ],
   "header": {
     "ctaLabel": "Register now",
     "mobileCtaLabel": "Register now"
+  },
+  "partnerships": {
+    "titleOpportunity": {
+      "label": "TITLE SPONSOR · AVAILABLE",
+      "title": "Your logo could lead Bootcamp 3.0",
+      "text": "Become the principal partner behind practical technology education and emerging talent in Madhesh.",
+      "placeholder": "YOUR LOGO HERE"
+    },
+    "current": [
+      {
+        "id": "internship-partner",
+        "name": "Nexalaris Tech",
+        "category": "INTERNSHIP PARTNER",
+        "description": "Providing internship opportunities to the top-performing participants of Bootcamp 3.0.",
+        "logo": "/images/partners/Nexalaris.svg",
+        "website": null,
+        "status": "INTERNSHIPS FOR TOP PERFORMERS"
+      }
+    ]
   },
   "hero": {
     "badge": "Applications open · Winter 2026",

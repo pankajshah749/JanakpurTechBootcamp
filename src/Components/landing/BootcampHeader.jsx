@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { ArrowRight, Menu, X } from "lucide-react";
 import siteData from "../../data/siteData.json";
 import SmartLink from "./SmartLink";
@@ -7,10 +7,15 @@ export default function BootcampHeader() {
   const [open, setOpen] = useState(false);
   const [activeHref, setActiveHref] = useState("");
   const { site, navigation, header, finalCta, hero } = siteData;
+  const currentPath = window.location.pathname.replace(/\/$/, "") || "/";
+  const navigationItems = useMemo(() => navigation.map(item => ({
+    ...item,
+    href: item.href.startsWith("#") && window.location.pathname !== "/" ? `/${item.href}` : item.href,
+  })), [navigation]);
   const startDate = finalCta?.startDate || hero?.startDate;
 
   useEffect(() => {
-    const sectionHrefs = navigation.filter(item => item.href.startsWith("#")).map(item => item.href);
+    const sectionHrefs = navigationItems.filter(item => item.href.startsWith("#")).map(item => item.href);
     const sections = sectionHrefs
       .map(href => ({ href, el: document.getElementById(href.slice(1)) }))
       .filter(entry => entry.el);
@@ -26,25 +31,28 @@ export default function BootcampHeader() {
     );
     sections.forEach(({ el }) => observer.observe(el));
     return () => observer.disconnect();
-  }, [navigation]);
+  }, [navigationItems]);
 
   return (
     <header className="bootcamp-header">
-      <a className="brand-lockup" href="#top" aria-label={`${site.name} home`}>
+      <a className="brand-lockup" href={currentPath === "/" ? "#top" : "/"} aria-label={`${site.name} home`}>
         <span className="brand-mark" aria-hidden="true">{site.mark}</span>
         <span><strong>{site.name}</strong><small>{site.location}</small></span>
       </a>
       <nav className="desktop-nav" aria-label="Primary navigation">
-        {navigation.map(item => (
+        {navigationItems.map(item => {
+          const isCurrentPage = item.href === currentPath;
+          return (
           <SmartLink
             key={item.href}
             href={item.href}
-            className={activeHref === item.href ? "is-active" : undefined}
-            aria-current={activeHref === item.href ? "true" : undefined}
+            className={`${activeHref === item.href || isCurrentPage ? "is-active" : ""} ${item.featured && isCurrentPage ? "is-featured" : ""}`.trim()}
+            aria-current={isCurrentPage ? "page" : activeHref === item.href ? "true" : undefined}
           >
             {item.label}
           </SmartLink>
-        ))}
+          );
+        })}
       </nav>
       <SmartLink className="header-cta" href={site.registrationUrl}>
         {startDate && (
@@ -60,17 +68,20 @@ export default function BootcampHeader() {
       </button>
       {open && (
         <nav className="mobile-nav" aria-label="Mobile navigation">
-          {navigation.map(item => (
+          {navigationItems.map(item => {
+            const isCurrentPage = item.href === currentPath;
+            return (
             <SmartLink
               key={item.href}
               href={item.href}
               onClick={() => setOpen(false)}
-              className={activeHref === item.href ? "is-active" : undefined}
-              aria-current={activeHref === item.href ? "true" : undefined}
+              className={`${activeHref === item.href || isCurrentPage ? "is-active" : ""} ${item.featured && isCurrentPage ? "is-featured" : ""}`.trim()}
+              aria-current={isCurrentPage ? "page" : activeHref === item.href ? "true" : undefined}
             >
               {item.label}
             </SmartLink>
-          ))}
+            );
+          })}
           <SmartLink href={site.registrationUrl}>{header.mobileCtaLabel}</SmartLink>
         </nav>
       )}

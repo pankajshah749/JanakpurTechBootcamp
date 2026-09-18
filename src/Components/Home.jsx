@@ -10,9 +10,10 @@ import JourneySection from "./landing/JourneySection";
 import SiteFooter from "./landing/SiteFooter";
 import TeamSection from "./landing/TeamSection";
 import TestimonialsSection from "./landing/TestimonialsSection";
+import PartnersSection from "./landing/PartnersSection";
 
 export default function Home() {
-  const { hero, advantages, journey, testimonials, team, finalCta, footer, navigation, site } = siteData;
+  const { hero, advantages, journey, testimonials, team, finalCta, footer, navigation, site, partnerships } = siteData;
 
   return (
     <div className="bootcamp-site" id="top">
@@ -20,6 +21,7 @@ export default function Home() {
       <main>
         <HeroSection hero={hero} />
         <AdvantagesSection advantages={advantages} />
+        <PartnersSection partnerships={partnerships} compact />
         <JourneySection section={journey} />
         <CurriculumSection />
         <GallerySection />

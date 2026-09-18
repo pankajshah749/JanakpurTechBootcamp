@@ -5,6 +5,7 @@ import Home from "./Components/Home";
 import Layout from "./Components/Layout";
 import AISummit from "./Components/AISummit";
 import Sponsor from "./Components/Summit/Sponsor";
+import Sponsorship from "./Components/Sponsorship";
 
 export default function App() {
   return (
@@ -15,6 +16,8 @@ export default function App() {
           <Route path="aisummit" element={<AISummit />} />
           <Route path="aisummit/sponsor" element={<Sponsor />} />
         </Route>
+        <Route path="sponsorship" element={<Sponsorship />} />
+        <Route path="sponsor" element={<Navigate to="/sponsorship" replace />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>
