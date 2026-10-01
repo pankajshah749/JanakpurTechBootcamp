@@ -35,7 +35,7 @@ const tiers = [
 
 export default function Sponsorship() {
   const { footer, navigation, site, partnerships } = siteData;
-  const inquiry = "mailto:janakpurtechbootcamp@gmail.com?subject=Bootcamp%203.0%20Sponsorship%20Inquiry";
+  const inquiry = "mailto:janakpurtechbootcamp@gmail.com?subject=Bootcamp%20Sponsorship%20Inquiry";
 
   return (
     <div className="bootcamp-site">
@@ -43,7 +43,7 @@ export default function Sponsorship() {
       <main>
         <section className="sponsor-dedicated-hero" id="top">
           <div className="sponsor-dedicated-copy">
-            <a className="sponsor-back-link" href="/"><ArrowLeft size={16} /> Back to Bootcamp 3.0</a>
+            <a className="sponsor-back-link" href="/"><ArrowLeft size={16} /> Back to Bootcamp</a>
             <p className="section-kicker">PARTNER WITH JANAKPUR TECH BOOTCAMP</p>
             <h1>Back the builders.<br /><em>Shape what comes next.</em></h1>
             <p>Support practical technology education in Madhesh while connecting your organization with ambitious learners, emerging talent, and a growing regional technology community.</p>
@@ -84,7 +84,7 @@ export default function Sponsorship() {
         <section className="final-cta sponsor-template-contact">
           <p className="section-kicker">03 / LET’S BUILD TOGETHER</p>
           <h2>Make a visible impact.<br /><em>Start with a conversation.</em></h2>
-          <p>We would be happy to discuss a sponsorship package aligned with your organization’s goals and build a meaningful partnership for Bootcamp 3.0.</p>
+          <p>We would be happy to discuss a sponsorship package aligned with your organization’s goals and build a meaningful partnership for the next Bootcamp.</p>
           <div className="sponsor-template-contact-details">
             <a href="mailto:janakpurtechbootcamp@gmail.com"><Mail size={17} />janakpurtechbootcamp@gmail.com</a>
             <a href="tel:+9779804885027"><Phone size={17} />+977 9804885027</a>

@@ -2,7 +2,7 @@ import { ExternalLink } from "lucide-react";
 import SectionIntro from "./SectionIntro";
 
 const intro = {
-  kicker: "PARTNERS / BOOTCAMP 3.0",
+  kicker: "PARTNERS / JANAKPUR TECH BOOTCAMP",
   titleLines: ["Organizations helping", "talent move forward."],
   accentLine: 1,
   text: "Our partners turn learning into access—through internships, mentorship, tools, opportunities, and community support.",

@@ -4,7 +4,7 @@ const ADMIN_FRAMES = [
   {
     id: 'ai-summit-janakpur-2026-01',
     name: 'AI Summit Janakpur',
-    url: '../../frame/frame.png',
+    url: '/frame/frame.png',
     innerCutoutPercent: 76,
   },
   {
@@ -16,19 +16,19 @@ const ADMIN_FRAMES = [
   {
     id: 'ai-summit-janakpur-2026-02',
     name: 'AI Summit Frame 2',
-    url: '../../frame/AI.png',
+    url: '/frame/AI.png',
     innerCutoutPercent: 76,
   },
   {
     id: 'ai-summit-janakpur-2026-03',
     name: 'AI Summit Frame 3',
-    url: '../../frame/AI2.png',
+    url: '/frame/AI2.png',
     innerCutoutPercent: 76,
   },
   {
     id: 'ai-summit-janakpur-2026-04',
     name: 'AI Summit Frame 4',
-    url: '../../frame/AI3.png',
+    url: '/frame/AI3.png',
     innerCutoutPercent: 76,
   },
   {
