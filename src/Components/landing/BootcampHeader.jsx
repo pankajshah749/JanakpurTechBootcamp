@@ -1,18 +1,17 @@
 import { useEffect, useMemo, useState } from "react";
-import { ArrowRight, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import siteData from "../../data/siteData.json";
 import SmartLink from "./SmartLink";
 
 export default function BootcampHeader() {
   const [open, setOpen] = useState(false);
   const [activeHref, setActiveHref] = useState("");
-  const { site, navigation, header, finalCta, hero } = siteData;
+  const { site, navigation } = siteData;
   const currentPath = window.location.pathname.replace(/\/$/, "") || "/";
   const navigationItems = useMemo(() => navigation.map(item => ({
     ...item,
     href: item.href.startsWith("#") && window.location.pathname !== "/" ? `/${item.href}` : item.href,
   })), [navigation]);
-  const startDate = finalCta?.startDate || hero?.startDate;
 
   useEffect(() => {
     const sectionHrefs = navigationItems.filter(item => item.href.startsWith("#")).map(item => item.href);
@@ -36,8 +35,8 @@ export default function BootcampHeader() {
   return (
     <header className="bootcamp-header">
       <a className="brand-lockup" href={currentPath === "/" ? "#top" : "/"} aria-label={`${site.name} home`}>
-        <span className="brand-mark" aria-hidden="true">{site.mark}</span>
-        <span><strong>{site.name}</strong><small>{site.location}</small></span>
+        <img className="brand-logo" src="/images/bootcampLogo.png" alt="" aria-hidden="true" />
+        <small className="brand-powered">Powered by Neelgai</small>
       </a>
       <nav className="desktop-nav" aria-label="Primary navigation">
         {navigationItems.map(item => {
@@ -54,15 +53,6 @@ export default function BootcampHeader() {
           );
         })}
       </nav>
-      <SmartLink className="header-cta" href={site.registrationUrl}>
-        {startDate && (
-          <span className="header-cta-date" aria-hidden="true">
-            <em>{startDate.month}</em>
-            <strong>{startDate.day}</strong>
-          </span>
-        )}
-        <span className="header-cta-text">{header.ctaLabel} <ArrowRight size={16} /></span>
-      </SmartLink>
       <button className="menu-button" onClick={() => setOpen(!open)} aria-label={open ? "Close navigation" : "Open navigation"} aria-expanded={open}>
         {open ? <X /> : <Menu />}
       </button>
@@ -82,7 +72,7 @@ export default function BootcampHeader() {
             </SmartLink>
             );
           })}
-          <SmartLink href={site.registrationUrl}>{header.mobileCtaLabel}</SmartLink>
+          <SmartLink href={site.registrationUrl}>Register now</SmartLink>
         </nav>
       )}
     </header>
