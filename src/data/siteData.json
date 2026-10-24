@@ -18,8 +18,8 @@
     { "label": "AI Summit ↗", "href": "/aisummit", "footer": false }
   ],
   "header": {
-    "ctaLabel": "Register now",
-    "mobileCtaLabel": "Register now"
+    "ctaLabel": "Registration closed",
+    "mobileCtaLabel": "Registration closed"
   },
   "partnerships": {
     "titleOpportunity": {
@@ -41,41 +41,51 @@
     ]
   },
   "hero": {
-    "badge": "Applications open · Winter 2026",
+    "badge": "Applications closed · Winter 2026",
     "startDate": { "month": "NOV", "day": "22" },
-    "deadline": { "month": "OCT", "day": "15", "year": "2026", "label": "Apply by 15 October 2026" },
-    "headline": ["Build for the web.", "Think with AI."],
+    "headline": ["Learn to build real apps", "right here in Janakpur."],
     "accentLine": 1,
-    "description": "A focused 3-month engineering bootcamp in Janakpur. Learn React, Django and practical AI integration—then ship work you can show.",
-    "primaryCta": { "label": "Register now", "href": "https://luma.com/70miv9x9" },
+    "description": "A focused 3-month engineering bootcamp in Janakpur. Learn React, Django and practical AI integration-then ship work you can show.",
+    "primaryCta": { "label": "Registration closed", "href": "https://luma.com/70miv9x9" },
     "secondaryCta": { "label": "Explore the curriculum", "href": "#curriculum" },
+    "gallery": [
+      { "src": "/gallery/hero/hero-5.jpg", "alt": "Hackathon 1.0 · 1st runner-up", "label": "1st runner-up" },
+      { "src": "/gallery/hero/hero-1.jpg", "alt": "Bootcamp & Hackathon certificate day", "label": "Graduates holding certificates" },
+      { "src": "/gallery/hero/hero-2.jpg", "alt": "Hackathon 1.0 winners · Team ZED", "label": "Hackathon winners" },
+      { "src": "/gallery/hero/hero-3.jpg", "alt": "Bootcamp cohort", "label": "Bootcamp cohort" },
+      { "src": "/gallery/hero/hero-4.jpg", "alt": "Certificate handover", "label": "Certified" },
+      { "src": "/gallery/hero/hero-6.jpg", "alt": "Hackathon 2.0 team", "label": "Hackathon 2.0" },
+      { "src": "/gallery/hero/hero-7.jpg", "alt": "Hackathon 2.0 builders", "label": "Builders" },
+      { "src": "/gallery/hero/hero-8.jpg", "alt": "Hackathon 1.0 · 2nd runner-up", "label": "2nd runner-up" },
+      { "src": "/gallery/hero/hero-9.jpg", "alt": "Hackathon 1.0 team", "label": "Teamwork" },
+      { "src": "/gallery/hero/hero-10.jpg", "alt": "Janakpur AI Summit", "label": "AI Summit" }
+    ],
     "image": "/images/bootcamp.jpg",
     "imageAlt": "Janakpur Tech Bootcamp students learning together",
-    "imageLabel": "01 / LIVE LAB",
+    "imageLabel": "LIVE LAB",
     "imageCaption": ["Learn by building,", "not by watching."],
     "stats": [
-      { "value": "03", "lines": ["Months of", "focused learning"] },
+      { "value": "3", "lines": ["Months of", "focused learning"] },
       { "value": "12", "lines": ["Weeks from UI", "to deployment"] },
-      { "value": "10+", "lines": ["Projects shipped", "to GitHub"] },
-      { "value": "01", "lines": ["Instructor-led", "learning path"] }
+      { "value": "10+", "lines": ["Projects shipped", "to GitHub"] }
     ]
   },
   "advantages": {
     "id": "program",
-    "kicker": "01 / THE BOOTCAMP ADVANTAGE",
+    "kicker": "THE BOOTCAMP ADVANTAGE",
     "titleLines": ["One clear path from", "fundamentals to full-stack."],
     "accentLine": 1,
     "text": "No disconnected modules. Every week builds directly on the one before it.",
     "items": [
       { "number": "01", "icon": "layers", "title": "One instructor. One clear path.", "text": "Move from frontend to backend to AI without changing teaching styles or juggling parallel tracks." },
-      { "number": "02", "icon": "bot", "title": "AI that works inside real apps.", "text": "Connect Gemini and OpenAI APIs to useful products—not isolated demos or prompt-only exercises." },
+      { "number": "02", "icon": "bot", "title": "AI that works inside real apps.", "text": "Connect Gemini and OpenAI APIs to useful products-not isolated demos or prompt-only exercises." },
       { "number": "03", "icon": "database", "title": "Backend without the setup drama.", "text": "Use Django ORM and SQLite so your attention stays on data models, APIs and product logic." },
       { "number": "04", "icon": "rocket", "title": "A portfolio that is live.", "text": "Ship 10+ GitHub projects and finish with a deployed full-stack capstone ready for Demo Day." }
     ]
   },
   "journey": {
     "id": "journey",
-    "kicker": "02 / OUR JOURNEY",
+    "kicker": "OUR JOURNEY",
     "titleLines": ["Every program", "earned its own story."],
     "text": "Bootcamps built capability. Hackathons tested it. Each milestone moved Janakpur’s technology community forward in a different way.",
     "items": [
@@ -100,7 +110,7 @@
         "title": "A deeper move into data and AI",
         "story": "The second cohort expanded the program into Python, machine learning and intelligent systems through project-led sessions.",
         "resultLabel": "WHAT IT CHANGED",
-        "result": "Learners gained a practical path into AI by working with datasets, models and real application ideas—not theory alone.",
+        "result": "Learners gained a practical path into AI by working with datasets, models and real application ideas-not theory alone.",
         "image": "/gallery/bootcamp/fifth.jpg"
       },
       {
@@ -131,31 +141,31 @@
   },
   "curriculum": {
     "id": "curriculum",
-    "kicker": "03 / THE CURRICULUM",
+    "kicker": "THE CURRICULUM",
     "titleLines": ["Three months.", "One complete learning journey."],
     "accentLine": 0,
     "text": "A professionally structured pathway from modern frontend development to backend engineering, applied AI and production delivery.",
     "tabsAriaLabel": "Curriculum months",
     "deliverableLabel": "YOU WILL SHIP",
-    "durationBadge": "60 DAYS",
+    "durationBadge": "90 DAYS",
     "durationDetail": "Full program across twelve structured weeks of learning.",
     "months": [
       {
-        "month": "Month 01", "weeks": "WEEKS 1—4", "icon": "braces",
+        "month": "Month 01", "weeks": "WEEKS 1-4", "icon": "braces",
         "title": "Modern Frontend Development",
         "summary": "Learn to design and build responsive, accessible and data-driven web experiences using modern development workflows.",
         "topics": ["Responsive interface design", "Professional Git and GitHub workflow", "JavaScript for web applications", "React application architecture", "API integration and user experience"],
         "deliverable": "Responsive portfolio and live data-driven web application"
       },
       {
-        "month": "Month 02", "weeks": "WEEKS 5—8", "icon": "database",
+        "month": "Month 02", "weeks": "WEEKS 5-8", "icon": "database",
         "title": "Backend & API Engineering",
         "summary": "Progress from scalable frontend experiences into Python, relational data modelling and maintainable backend services.",
         "topics": ["Scalable frontend architecture", "Python for backend development", "Django application development", "Relational database design", "REST API design and testing"],
         "deliverable": "Multi-page product experience and tested backend API"
       },
       {
-        "month": "Month 03", "weeks": "WEEKS 9—12", "icon": "sparkles",
+        "month": "Month 03", "weeks": "WEEKS 9-12", "icon": "sparkles",
         "title": "Full-Stack, AI & Production Delivery",
         "summary": "Combine frontend, backend, security and AI capabilities into a complete product, then prepare it for a professional launch.",
         "topics": ["Secure full-stack applications", "Applied generative AI", "End-to-end product integration", "Capstone development sprint", "Cloud deployment and Demo Day"],
@@ -165,7 +175,7 @@
   },
   "gallery": {
     "id": "gallery",
-    "kicker": "04 / MOMENTS FROM THE ROOM",
+    "kicker": "MOMENTS FROM THE ROOM",
     "titleLines": ["More than classes.", "A growing tech community."],
     "accentLine": 1,
     "text": "Real rooms, real deadlines and real people building together across Madhesh Province.",
@@ -253,34 +263,34 @@
   },
   "testimonials": {
     "id": "stories",
-    "kicker": "05 / FROM THE COMMUNITY",
+    "kicker": "FROM THE COMMUNITY",
     "titleLines": ["The work changes", "what feels possible."],
     "accentLine": 1,
     "text": "Voices from Bootcamp 1.0, Bootcamp 2.0, Hackathons, and the Janakpur AI Summit community.",
     "items": [
       { "quote": "I joined Bootcamp 1.0 with only basic HTML. By the end I had built and deployed my own React + Django projects and finally felt like a real developer.", "name": "Anjali Gupta", "role": "Bootcamp 1.0 Graduate" },
-      { "quote": "The best part of Bootcamp 1.0 was learning by building. Every week we shipped something — portfolio, GitHub, live apps. No boring theory.", "name": "Satyam Sah", "role": "Bootcamp 1.0 Student" },
-      { "quote": "As a college student, Bootcamp 1.0 gave me what classes never did — confidence with Git, JavaScript, and presenting my own work on Demo Day.", "name": "Sanjana Yadav", "role": "Bootcamp 1.0 Graduate" },
+      { "quote": "The best part of Bootcamp 1.0 was learning by building. Every week we shipped something , portfolio, GitHub, live apps. No boring theory.", "name": "Satyam Sah", "role": "Bootcamp 1.0 Student" },
+      { "quote": "As a college student, Bootcamp 1.0 gave me what classes never did , confidence with Git, JavaScript, and presenting my own work on Demo Day.", "name": "Sanjana Yadav", "role": "Bootcamp 1.0 Graduate" },
       { "quote": "Bootcamp 2.0 pushed me into Python and AI the right way. Working with real datasets and APIs made machine learning feel practical, not scary.", "name": "Milan Sah", "role": "Bootcamp 2.0 Graduate" },
       { "quote": "The mentors genuinely care. In Bootcamp 2.0 I always got feedback on my code, my projects, even my career doubts. The community kept me going.", "name": "Neha Pandey", "role": "Bootcamp 2.0 Student" },
-      { "quote": "From fundamentals to full-stack apps with React and Django — Bootcamp 2.0 completely transformed how I think about building products.", "name": "Ashok Mahato", "role": "Bootcamp 2.0 Graduate" },
-      { "quote": "The Janakpur AI Summit opened my eyes. Hearing industry speakers talk about AI careers in Nepal made me believe I can build from Janakpur itself.", "name": "Sumit singh", "role": "AI Summit Participant" },
-      { "quote": "I came to the AI Summit out of curiosity and left with a learning roadmap, new friends, and the courage to start web development seriously.", "name": "Laxmi jha", "role": "AI Summit Participant" },
-      { "quote": "The Summit felt like a festival for builders. Great talks, honest Q&A, and so many students excited about AI — I immediately registered for the next Bootcamp.", "name": "Manish Panjiyar", "role": "AI Summit Participant" },
+      { "quote": "From fundamentals to full-stack apps with React and Django , Bootcamp 2.0 completely transformed how I think about building products.", "name": "Ashok Mahato", "role": "Bootcamp 2.0 Graduate" },
+      { "quote": "The Janakpur AI Summit opened my eyes. Hearing industry speakers talk about AI careers in Nepal made me believe I can build from Janakpur itself.", "name": "Sumit Singh", "role": "AI Summit Participant" },
+      { "quote": "I came to the AI Summit out of curiosity and left with a learning roadmap, new friends, and the courage to start web development seriously.", "name": "Laxmi Jha", "role": "AI Summit Participant" },
+      { "quote": "The Summit felt like a festival for builders. Great talks, honest Q&A, and so many students excited about AI , I immediately registered for the next Bootcamp.", "name": "Manish Panjiyar", "role": "AI Summit Participant" },
       { "quote": "Before Bootcamp 1.0 I was scared of JavaScript. Now I build React components with confidence and my GitHub finally shows real work.", "name": "Shyam Sundar Yadav", "role": "Bootcamp 1.0 Student" },
-      { "quote": "I loved the daily discipline of Bootcamp 1.0 — live labs, small deadlines, and mentors who never let you stay stuck for long.", "name": "Sneha mahato", "role": "Bootcamp 1.0 Graduate" },
+      { "quote": "I loved the daily discipline of Bootcamp 1.0 , live labs, small deadlines, and mentors who never let you stay stuck for long.", "name": "Sneha Mahato", "role": "Bootcamp 1.0 Graduate" },
       { "quote": "Our team built a working prototype in 48 hours at Hackathon 1.0. The pressure, mentors, and final demo taught me more than months of solo learning.", "name": "Sonam Chaudhary", "role": "Hackathon 1.0 Participant" },
       { "quote": "I built my first AI-powered app in Bootcamp 2.0 using the Gemini API. Seeing my own idea answer questions live was pure magic.", "name": "Prince Raut", "role": "Bootcamp 2.0 Graduate" },
-      { "quote": "The step-by-step path from Python basics to deployment was perfect. No confusion, no jumping around — just steady progress every single week.", "name": "Ranjan Ray", "role": "Bootcamp 2.0 Student" },
+      { "quote": "The step-by-step path from Python basics to deployment was perfect. No confusion, no jumping around , just steady progress every single week.", "name": "Ranjan Ray", "role": "Bootcamp 2.0 Student" },
       { "quote": "As a +2 student, the AI Summit gave me clarity. I met seniors, asked silly questions freely, and found mentors who still guide me today.", "name": "Nikhil Sah", "role": "AI Summit Participant" },
-      { "quote": "The panel on AI jobs in Nepal was the highlight for me. Practical, honest, and full of hope — it showed a real future for Madhesh youth in tech.", "name": "Hariom Yadav", "role": "AI Summit Participant" },
+      { "quote": "The panel on AI jobs in Nepal was the highlight for me. Practical, honest, and full of hope , it showed a real future for Madhesh youth in tech.", "name": "Hariom Yadav", "role": "AI Summit Participant" },
       { "quote": "I joined Hackathon 1.0 with zero expectations and left with my first trophy moment. Building under a deadline with friends was pure adrenaline.", "name": "Prince Raj Chaudhary", "role": "Hackathon 1.0 Participant" },
       { "quote": "Judges asked tough questions at Hackathon 2.0 and that feedback shaped my Bootcamp projects. It felt like Janakpur's own startup stage.", "name": "Bibisha ", "role": "Hackathon 2.0 Finalist" }
     ]
   },
   "team": {
     "id": "team",
-    "kicker": "06 / PEOPLE BEHIND THE BOOTCAMP",
+    "kicker": "PEOPLE BEHIND THE BOOTCAMP",
     "titleLines": ["Focused teaching.", "Strong support."],
     "accentLine": 1,
     "text": "A small team with clearly defined roles around the student experience.",
@@ -288,13 +298,13 @@
       { "name": "Amardeep Soni", "role": "Software Engineer & Instructor", "image": "/gallery/teams/amardeep.png", "email": "janakpurtechbootcamp@gmail.com", "bio": "Software Engineer with 4+ years building real products across web, backend, databases, APIs, cloud and AI. At the bootcamp he turns ideas into working products through hands-on projects, practical workflows and real problem-solving." },
       { "name": "Pankaj Sah", "role": "Coordinator & Student Experience", "image": "/gallery/teams/pankaj.jpg", "email": "janakpurtechbootcamp@gmail.com", "bio": "Coordinates logistics, onboarding, scheduling and the day-to-day experience that keeps every cohort moving." },
       { "name": "Suruchi Shah", "role": "Marketing & Community Storytelling", "image": "/gallery/teams/suruchi.jpg", "email": "janakpurtechbootcamp@gmail.com", "bio": "Shares the bootcamp’s work with the community and helps future learners understand the path into the program." },
-      { "name": "Anup Soni", "role": "Creative & Digital Media", "image": "/gallery/teams/anup.jpeg", "email": "janakpurtechbootcamp@gmail.com", "bio": "Leads the bootcamp's social presence and full visual identity — graphic design, promo videos, flyers and digital creatives for bootcamps, hackathons and the AI Summit." },
-      { "name": "Anjali Gupta", "role": "Sponsorship Coordinator", "image": "/gallery/teams/anjali.jpeg", "email": "janakpurtechbootcamp@gmail.com", "bio": "Connects sponsors, partners and supporters with the bootcamp — coordinating sponsorship packages, benefits and recognitions so every partnership creates real value for the cohort.", "tags": ["Sponsorships", "Partnerships", "Community"] }
+      { "name": "Anup Soni", "role": "Creative & Digital Media", "image": "/gallery/teams/anup.jpeg", "email": "janakpurtechbootcamp@gmail.com", "bio": "Leads the bootcamp's social presence and full visual identity , graphic design, promo videos, flyers and digital creatives for bootcamps, hackathons and the AI Summit." },
+      { "name": "Anjali Gupta", "role": "Sponsorship Coordinator", "image": "/gallery/teams/anjali.jpeg", "email": "janakpurtechbootcamp@gmail.com", "bio": "Connects sponsors, partners and supporters with the bootcamp , coordinating sponsorship packages, benefits and recognitions so every partnership creates real value for the cohort.", "tags": ["Sponsorships", "Partnerships", "Community"] }
     ]
   },
   "faq": {
     "id": "faq",
-    "kicker": "07 / BEFORE YOU APPLY",
+    "kicker": "BEFORE YOU APPLY",
     "titleLines": ["Questions,", "answered plainly."],
     "accentLine": 1,
     "text": "Quick answers about eligibility, learning, projects and the application process.",
@@ -313,11 +323,11 @@
   },
   "finalCta": {
     "id": "register",
-    "kicker": "APPLICATIONS · WINTER 2026",
+    "kicker": "APPLICATIONS CLOSED · WINTER 2026",
     "titleLines": ["Ready to build", "something real?"],
     "accentLine": 1,
-    "text": "Applications are reviewed on a rolling basis. Start with a short registration, then meet us for a friendly screening conversation.",
-    "buttonLabel": "Register now",
+    "text": "Registration for this cohort is now closed. The cohort starts on Sunday, 22 November 2026.",
+    "buttonLabel": "Registration closed",
     "buttonHref": "https://luma.com/70miv9x9",
     "icon": "code",
     "startDate": {
@@ -338,7 +348,7 @@
       { "label": "Email us", "href": "mailto:janakpurtechbootcamp@gmail.com" },
       { "label": "AI Summit 2026", "href": "/aisummit" },
       { "label": "Profile frame", "href": "/frame" },
-      { "label": "Register now", "href": "https://luma.com/70miv9x9", "external": true }
+      { "label": "Registration closed", "href": "https://luma.com/70miv9x9", "external": true }
     ],
     "techStack": "React · Django · AI",
     "techNote": "Build locally. Ship globally.",

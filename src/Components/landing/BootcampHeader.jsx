@@ -72,7 +72,7 @@ export default function BootcampHeader() {
             </SmartLink>
             );
           })}
-          <SmartLink href={site.registrationUrl}>Register now</SmartLink>
+          <SmartLink href={site.registrationUrl}>Registration closed</SmartLink>
         </nav>
       )}
     </header>
