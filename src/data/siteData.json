@@ -41,6 +41,7 @@
     ]
   },
   "hero": {
+    "tagline": "Rooted in Janakpur · Building Madhesh's tech future",
     "badge": "Applications closed · Winter 2026",
     "startDate": { "month": "NOV", "day": "22" },
     "headline": ["Learn to build real web apps", "right here in Janakpur."],
@@ -341,18 +342,18 @@
     "deadline": { "iso": "2026-10-15", "month": "OCT", "day": "15", "year": "2026", "weekday": "Thursday", "label": "Apply by 15 October 2026" }
   },
   "footer": {
+    "tagline": "Rooted in Janakpur · Building Madhesh's tech future",
     "mission": "Empowering next-generation tech talent in Janakpur and Madhesh Province.",
     "navigationLabel": "NAVIGATE",
     "connectLabel": "CONNECT",
     "connectLinks": [
       { "label": "Email us", "href": "mailto:janakpurtechbootcamp@gmail.com" },
       { "label": "AI Summit 2026", "href": "/aisummit" },
-      { "label": "Profile frame", "href": "/frame" },
       { "label": "Registration closed", "href": "https://luma.com/70miv9x9", "external": true }
     ],
     "techStack": "React · Django · AI",
     "techNote": "Build locally. Ship globally.",
-    "copyright": "© 2026 Janakpur Tech Bootcamp · Powered by Neelgai. All rights reserved.",
+    "copyright": "© 2026 Janakpur Tech Bootcamp. All rights reserved.",
     "location": "JANAKPUR DHAM · NEPAL"
   }
 }

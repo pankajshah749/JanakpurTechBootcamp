@@ -36,7 +36,6 @@ export default function BootcampHeader() {
     <header className="bootcamp-header">
       <a className="brand-lockup" href={currentPath === "/" ? "#top" : "/"} aria-label={`${site.name} home`}>
         <img className="brand-logo" src="/images/bootcampLogo.png" alt="" aria-hidden="true" />
-        <small className="brand-powered">Powered by Neelgai</small>
       </a>
       <nav className="desktop-nav" aria-label="Primary navigation">
         {navigationItems.map(item => {

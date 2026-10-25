@@ -31,6 +31,7 @@ export default function HeroSection({ hero }) {
       <div className="hero-glow" aria-hidden="true" />
       <div className="hero-grid">
         <div className="hero-copy">
+          <p className="hero-tagline">{hero.tagline}</p>
           <div className="eyebrow"><span /> {hero.badge}</div>
           <h1><LineTitle lines={hero.headline} accentLine={hero.accentLine} accentElement="em" /></h1>
           <p className="hero-lede">{hero.description}</p>
