@@ -55,7 +55,7 @@ export default function Sponsors() {
           {sponsors.map((sponsor, index) => (
             <div
               key={sponsor.id}
-              className="sponsor-float rounded-4xl  p-5 border-2"
+              className="rounded-4xl p-5 border-2"
               style={{ animationDelay: `${index * 120}ms` }}
             >
            
@@ -77,13 +77,13 @@ export default function Sponsors() {
         </div>
 
         {/* Company Logo */}
-        <div className="mx-auto max-w-md rounded-4xl p-8 sponsor-float delay-200">
+        <div className="mx-auto max-w-md rounded-4xl p-8">
           <div className="flex flex-col items-center gap-5 text-center">
             {company.logo ? (
               <img
                 src={company.logo}
                 alt={company.name}
-                className="mx-auto h-36 w-4xl logo-pulse"
+                className="mx-auto h-36 w-4xl"
               />
             ) : (
               <div className="flex h-24 w-24 items-center justify-center rounded-lg text-3xl text-white">
