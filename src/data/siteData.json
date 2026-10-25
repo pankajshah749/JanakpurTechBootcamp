@@ -43,7 +43,7 @@
   "hero": {
     "badge": "Applications closed · Winter 2026",
     "startDate": { "month": "NOV", "day": "22" },
-    "headline": ["Learn to build real apps", "right here in Janakpur."],
+    "headline": ["Learn to build real web apps", "right here in Janakpur."],
     "accentLine": 1,
     "description": "A focused 3-month engineering bootcamp in Janakpur. Learn React, Django and practical AI integration-then ship work you can show.",
     "primaryCta": { "label": "Registration closed", "href": "https://luma.com/70miv9x9" },
