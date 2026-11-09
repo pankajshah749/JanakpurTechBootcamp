@@ -25,8 +25,8 @@ export default function Home() {
         <JourneySection section={journey} />
         <CurriculumSection />
         <GallerySection />
-        <FAQSection />
         <TeamSection section={team} />
+        <FAQSection />
         <TestimonialsSection section={testimonials} />
         <FinalCtaSection finalCta={finalCta} />
       </main>
